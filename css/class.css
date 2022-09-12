@@ -43,7 +43,7 @@
 .classContents .classBoxRight {
     width: 513px;
     height: 100%;
-    padding: 118px 80px 100px 50px;
+    padding: 0px 80px 100px 50px;
     box-sizing: border-box;
 }
 
@@ -95,7 +95,7 @@
     text-align: center;
 }
 .class4Contents {
-    padding-top: 200px;
+    padding: 200px 0;
     width: 100%;
     min-width: 1280px;
     background-color: #000;
@@ -103,4 +103,23 @@
 .class4ServiceWrap {
     width: 1110px;
     margin: auto;
+}
+.serviceBox1 {
+    height: 245px;
+}
+.class4ServiceWrap .service {
+    float: left;
+}
+.serviceTitle {
+    padding-bottom: 19px;
+    font-family: 'Helvetica';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+}
+.serviceImg1 {
+    width: 379px;
+    height: 245px;
+    padding-left: 110px;
 }

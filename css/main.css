@@ -54,7 +54,7 @@
 .roller #rolltext {
   position: absolute;
   top: 0;
-  animation: slide 5s ;  
+  animation: slide 3s ;  
 }
 
 @keyframes slide {
@@ -143,6 +143,7 @@
 .mainvideoBox video {
   width: 1280px;
   height: 720px;
+  border: 1px solid #1F1E23;
 }
 /* 학생 리뷰 */
 .mainReviewBox {
