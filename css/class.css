@@ -1,0 +1,106 @@
+/* common */
+.classContents {
+    margin-top: 200px;
+    width: 100%;
+    min-width: 1280px;
+}
+.classContents > div {
+    float: left;
+}
+.classContents .classBoxLeft {
+    width: calc(100% - 513px);
+    padding: 70px 0 0 130px;
+    box-sizing: border-box;
+    background-color: #1F1E23;
+}
+.classBoxLeft .className {
+    padding: 10px 0 20px 0;
+}
+.className img {
+    width: 19px;
+    height: 19px;
+    padding-left: 15px;
+}
+.classBoxLeft .curriculum {
+    padding-top: 54px;
+}
+.curriculumWrap {
+    padding-top: 30px;
+}
+.curriculumWrap .curriculum1 {
+    float: left;
+}
+.curriculumWrap img {
+    padding-right: 12px;
+}
+.curriculumContents {
+    float: right;
+}
+.curriculumText {
+    padding: 10px 0 45px 0;
+}
+
+.classContents .classBoxRight {
+    width: 513px;
+    height: 100%;
+    padding: 118px 80px 100px 50px;
+    box-sizing: border-box;
+}
+
+.classListIcon {
+    width: 15px;
+    height: 12px;
+    padding-right: 10px;
+}
+.classBoxRight .classList {
+    padding: 25px 0 50px 0;
+}
+.classBtn {
+    width: 383px;
+    height: 79px;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 79px;
+}
+
+/* 기업컨설팅 */
+.class4TopLine {
+    display: block;
+    padding: 64px 0 37px 0;
+    margin: 0 auto;
+}
+.class4TopTitle {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+}
+.class4TopTitle img {
+    position: absolute;
+    width: 110px;
+    height: 35px;
+    left: 307px;
+}
+.blank {
+    padding-left: 132px;
+}
+.class4TopText {
+    padding-top: 22px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+.class4Contents {
+    padding-top: 200px;
+    width: 100%;
+    min-width: 1280px;
+    background-color: #000;
+}
+.class4ServiceWrap {
+    width: 1110px;
+    margin: auto;
+}

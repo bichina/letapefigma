@@ -1,0 +1,24 @@
+.reviewWrap {
+    width: 1196px;
+    padding-top: 153px;
+    margin: 0 auto;
+}
+.reviewBox {
+    float: left;
+    width: 336px;
+    height: 470px;
+    margin: 30px;
+    padding: 25px;
+    box-sizing: border-box;
+    background: #E9CF4A;
+}
+.reviewBox p {
+    color: #000;
+}
+.reviewBox img {
+    display: block;
+    width: 130px;
+    height: 130px;
+    padding: 20px 0 47px 0;
+    margin: 0 auto;
+}

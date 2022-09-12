@@ -1,0 +1,81 @@
+.contentsWrap {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 155px 0 245px 0;
+    overflow: auto;
+}
+.profileWrap {
+    width: 100%;
+    height: 700px;
+}
+.profileWrap div {
+    float: left;
+}
+.profileImg img {
+    width: 465px;
+    height: 700px;
+}
+.profileText {
+    width: 572px;
+    margin-left: 106px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fff;
+}
+.profileText .title li {
+    height: 30px;
+    line-height: 30px;
+    padding-bottom: 16px;
+    vertical-align: middle;
+}
+.profileText .title li:last-child {
+    padding-bottom: 29px;
+}
+.profileList {
+    float: left;
+}
+.snsIcon {
+    height: 30px;
+    padding-right: 15px;
+}
+.line {
+    width: 572px;
+    height: 1px;
+    background-color: #fff;
+}
+.profileHistory {
+    margin-left: 106px;
+    padding-top: 37px;
+}
+.profileHistory img {
+    width: 18px;
+    height: 18px;
+    padding-right: 15px;
+}
+.profileHistory ul li {
+    height: 25px;
+    line-height: 18px;
+    padding-bottom: 16px;
+}
+.profileHistory ul > .projectDetail li {
+    height: 28px;
+    padding-left: 33px;
+    padding-bottom: 4px;
+}
+.videoWrap {
+    padding-top: 70px;
+}
+.videoWrap p {
+    padding-bottom: 30px;
+}
+.videoList {
+    display: flex;
+    padding-bottom: 23px;
+}
+.videoWrap ul li {
+    float: left;
+    display: flex;
+    margin-right: 22px;
+}
+.videoWrap ul li:last-child {
+    margin: 0;
+}

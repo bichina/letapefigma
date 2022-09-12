@@ -1,0 +1,281 @@
+/* layout */
+.mainTopBanner {
+    width: 100%;
+    max-width: 1280px;
+    height: 450px; /* 임의로 40px 줄임 */
+    margin: 0 auto;
+    padding: 125px 0 0 60px; /* 임의로 40px 줄임 */
+    box-sizing: border-box;
+}
+.mainYellowBanner {
+    width: 100%;
+    height: 293px;
+    background-color: antiquewhite;
+}
+.mainClassCard {
+    width: 1280px;
+    height: 640px;
+    margin: 0 auto;
+}
+.mainSlideBox {
+    width: 100%;
+    height: 416px;
+}
+.mainvideoBox {
+    width: 1280px;
+    padding-bottom: 128px;
+    margin: 0 auto;
+}
+.mainContact {
+  width: 100%;
+  min-width: 1280px;
+  padding-bottom: 234px;
+}
+
+/* 텍스트 슬라이드 */
+.main{
+  height:490px;
+  width:100%;  
+  align-items:center;
+  justify-content:center;
+  text-align:left;
+}
+.roller{
+  height: 200px;
+  line-height: 4rem;
+  position: relative;
+  overflow: hidden; 
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  
+  font-weight: 300;
+}
+.roller #rolltext {
+  position: absolute;
+  top: 0;
+  animation: slide 5s ;  
+}
+
+@keyframes slide {
+  0%{
+    top:200px;
+  }
+  33%{
+    top: 140px;    
+  }
+  66%{
+    top: 70px;
+  }
+}
+
+/* 수업설명 카드 */
+.mainClassCard .classCard {
+    display: inline-block;
+    margin-right: 16px;
+}
+.mainClassCard .classCard:last-child {
+    margin-right: 0;
+}
+.mainClassCard .classCard a {
+    width: 305px;
+    height: 640px;
+}
+
+/* 수업광고배너 */
+.mainSlideWrap {
+    width: 1280px;
+    height: 416px;
+    margin: 0 auto;
+}
+.mainSlideWrap > div {
+  float: left;
+}
+.mainSliderTitle {
+    width: 480px;
+    height: 416px;
+    padding: 138px 0 0 108px;
+    box-sizing: border-box;
+    background-color: black;
+}
+.titleTop {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+.titleBottom {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+.textSlider {
+  width: 800px;
+  height: 416px;
+}
+.textSlider .textSliderDiv {
+  width: 800px;
+  height: 416px;
+  padding: 138px 60px 0 60px;
+  box-sizing: border-box;
+}
+.textSlider .textSliderDiv ul .sliderLine {
+  display: inline-block;
+  width: 33px;
+  height: 5px;
+}
+.slick-dots {
+  right: 60px;
+  bottom: 80px;
+}
+.slick-dots li button:before {
+  background-color: #000;
+  opacity: 1;
+}
+.slick-dots li.slick-active button:before {
+  background-color: #fff;
+}
+
+/* 동영상 */
+.mainvideoBox video {
+  width: 1280px;
+  height: 720px;
+}
+/* 학생 리뷰 */
+.mainReviewBox {
+  width: 100%;
+  min-width: 1280px;
+  padding: 160px 0;
+  background-color: #1F1E23;
+}
+
+.mainReviewTitle {
+  display: inline-block;
+  width: 550px;
+  height: 470px;
+  padding-left: 80px;
+  position: relative;
+}
+.mainReviewTitle .mainReviewBtn {
+  position: absolute;
+  bottom: 0;
+  right: 101px;
+}
+.mainReviewWrap {
+  float: right;
+  /* width: 730px; */
+  width: calc(100% - 630px);
+  height: 470px;
+}
+
+
+.slick {
+  /* width: 730px; */
+  height: 470px;
+}
+.item {
+  transition: .4s ease all;
+  margin-right: 30px;
+}
+.autoplay {
+  height: 470px;
+}
+.autoplay > ul {
+  top: 550px;
+  left: 366px;
+}
+
+.autoplay .slick-dots li button:before {
+  background-color: #fff;
+  opacity: 1;
+}
+.autoplay .slick-dots li.slick-active button:before {
+  background-color: #E9CF4A;
+}
+
+/* 오시는 길 */
+.mainContact {
+  overflow: hidden;
+}
+.mainContactTop {
+  position: relative;
+  width: 1280px;
+  height: 523px;
+  margin: 0 auto;
+}
+.mainContactTop > div {
+  float: left;
+}
+.mainContactWrap {
+  position: absolute;
+  margin-top: 145px;
+  left: 480px;
+  width: 100%;
+}
+.mainContactWrap div {
+  display: none;
+  height: 337px;
+  padding: 26px 0 0;
+  border-top: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.contectAddr {
+  padding: 21px 0;
+}
+.contactBtn {
+  padding: 5px 20px;
+  border: 1px solid #fff;
+  border-radius: 100px;
+}
+.contactBtn img {
+  width: 20px;
+  height: 20px;
+}
+/*라디오버튼 숨김*/
+input {
+    display: none;
+  }
+
+.mainContactWrap label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+/*input 클릭시, label 스타일*/
+input:checked + label {
+    color: #E9CF4A;
+    font-weight: 800;
+  }
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2 {
+  display: block;
+}
+#content3 {
+  display: block;
+}
+#content4 {
+  display: none;
+}
+
+.mainContact {
+  width: 100%;
+  height: 710px;
+}
+.mainContact iframe {
+  width: 100%;
+  min-width: 1280px;
+  height: 710px;
+}

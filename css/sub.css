@@ -1,0 +1,19 @@
+.subTitleBox {
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.subTitleBox .subTitle {
+    padding-top: 30px;
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 35px;
+    /* identical to box height, or 100% */
+    letter-spacing: 40px;
+    text-transform: uppercase;
+}
+.subText {
+    padding-top: 37px;
+}
