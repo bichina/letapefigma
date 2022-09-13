@@ -171,7 +171,23 @@
   width: calc(100% - 630px);
   height: 470px;
 }
-
+.reviewBox {
+  width: 336px;
+  height: 470px;
+  padding: 25px;
+  box-sizing: border-box;
+  background: #E9CF4A;
+}
+.reviewBox p {
+  color: #000;
+}
+.reviewBox img {
+  display: block;
+  width: 130px;
+  height: 130px;
+  padding: 20px 0 47px 0;
+  margin: 0 auto;
+}
 
 .slick {
   /* width: 730px; */
