@@ -8,9 +8,10 @@
     box-sizing: border-box;
 }
 .mainYellowBanner {
-    width: 100%;
+    width: 1280px;
     height: 293px;
-    background-color: antiquewhite;
+    margin: auto;
+    background-color: blue;
 }
 .mainClassCard {
     width: 1280px;
@@ -48,13 +49,18 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-  
   font-weight: 300;
 }
 .roller #rolltext {
   position: absolute;
   top: 0;
-  animation: slide 3s ;  
+  animation: slide 3s ;
+}
+.roller #rolltext2 {
+  position: absolute;
+  top: 0;
+  animation: slide 3s ;
+  animation-delay: 3s;
 }
 
 @keyframes slide {
@@ -68,6 +74,44 @@
     top: 70px;
   }
 }
+.main2 {
+  background: red;
+  padding: 10px;
+  
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 
 /* 수업설명 카드 */
 .mainClassCard .classCard {
@@ -296,3 +340,4 @@ input:checked + label {
   min-width: 1280px;
   height: 710px;
 }
+

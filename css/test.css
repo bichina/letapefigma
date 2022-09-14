@@ -1,25 +1,42 @@
-.slick {
-    width: 1000px;
-    background-color: yellowgreen;
+.fade-in-box {
+  display: inline-block;
+  background: yellow;
+  padding: 10px;
+  animation: fadein 3s;
+  animation-delay :3s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -o-animation: fadein 3s; /* Opera */
 }
-  
-  .item {
-    height: 10rem;
-    padding: 1rem;
-    opacity: 0.4;
-    transition: .4s ease all;
-    margin: 0 20px;
-    transform: scale(0.9);
-  }
-  
-  
-  .slick .item {
-    width: 100px;
-    background: #3498db;
-  }
-  
-  .active .item, .slick-center {
-    opacity: 1;
-    transform: scale(1);
-  }
-  
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
