@@ -240,8 +240,8 @@ header {
     z-index: 999;
 }
 .logo {
-    width: 100px;
-    height: 35px;
+    width: 110px;
+    height: 39px;
 }
 .menu-toggle img {
     width: 40px;
@@ -269,7 +269,7 @@ footer {
 }
 .footerBox p {
     float: left;
-    padding-right: 85px;
+    padding-right: 195px;
 }
 .footerBox img {
     width: 166px;

@@ -2,9 +2,9 @@
 .mainTopBanner {
     width: 100%;
     max-width: 1280px;
-    height: 450px; /* 임의로 40px 줄임 */
+    height: 420px; /* 임의로 40px 줄임 */
     margin: 0 auto;
-    padding: 125px 0 0 60px; /* 임의로 40px 줄임 */
+    padding: 95px 0 0 60px; /* 임의로 40px 줄임 */
     box-sizing: border-box;
 }
 .mainYellowBanner {

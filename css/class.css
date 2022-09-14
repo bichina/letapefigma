@@ -219,3 +219,47 @@
     padding: 107px 0 200px 0;
     background-color: #000;
 }
+.serviceProcessWrap {
+    width: 1220px;
+    margin: 0 auto;
+}
+.processContents > ul {
+    height: 109px;
+    margin-bottom: 254px;
+}
+.serviceProcessWrap > .processContents > ul > li {
+    float: left;
+    width: 22%;
+    padding-top: 27px;
+    text-align: center;
+}
+.serviceProcessWrap > .processContents > ul > li:first-child,
+.serviceProcessWrap > .processContents > ul > li:last-child {
+    width: 17%;
+}
+.processTitle {
+    padding-left: 20px;
+    border-left: 2px solid #E9CF4A;
+}
+.processText {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 6px;
+}
+.processImg {
+    display: block;
+    width: 1155px;
+    margin: 0 auto;
+    padding-top: 68px;
+}
+.classBtn2 {
+    width: 383px;
+    height: 79px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 79px;
+}
