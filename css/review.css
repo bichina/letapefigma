@@ -1,6 +1,7 @@
 .reviewWrap {
+    overflow: hidden;
     width: 1196px;
-    padding-top: 153px;
+    padding: 153px 0 250px 0;
     margin: 0 auto;
 }
 .reviewBox {

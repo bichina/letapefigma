@@ -1,8 +1,11 @@
 .contentsWrap {
     width: 1280px;
     margin: 0 auto;
-    padding: 155px 0 245px 0;
+    padding: 155px 0 250px 0;
     overflow: auto;
+}
+.teacher1 {
+    padding-bottom: 155px;
 }
 .profileWrap {
     width: 100%;
@@ -60,22 +63,4 @@
     height: 28px;
     padding-left: 33px;
     padding-bottom: 4px;
-}
-.videoWrap {
-    padding-top: 70px;
-}
-.videoWrap p {
-    padding-bottom: 30px;
-}
-.videoList {
-    display: flex;
-    padding-bottom: 23px;
-}
-.videoWrap ul li {
-    float: left;
-    display: flex;
-    margin-right: 22px;
-}
-.videoWrap ul li:last-child {
-    margin: 0;
 }

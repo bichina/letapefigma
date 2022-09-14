@@ -63,6 +63,9 @@
     text-align: center;
     line-height: 79px;
 }
+.underline {
+    text-decoration: underline;
+}
 
 /* 기업컨설팅 */
 .class4TopLine {
@@ -95,10 +98,42 @@
     text-align: center;
 }
 .class4Contents {
-    padding: 200px 0;
+    position: relative;
+    padding: 186px 0 220px 0;
     width: 100%;
     min-width: 1280px;
     background-color: #000;
+    overflow: hidden;
+}
+.bgLine {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color:#212121;
+}
+.bgLine1 {
+    top: 151px;
+    left: 50%;
+}
+.bgLine2 {
+    top: 310px;
+    left: 70%;
+}
+.bgLine3 {
+    top: 466px;
+    right: 10%;
+}
+.bgLine4 {
+    top: 1010px;
+    left: 10%;
+}
+.bgLine5 {
+    top: 1431px;
+    right: 60%;
+}
+.bgLine6 {
+    top: 1700px;
+    right: 10%;
 }
 .class4ServiceWrap {
     width: 1110px;
@@ -216,7 +251,7 @@
 .serviceProcess {
     width: 100%;
     min-width: 1280px;
-    padding: 107px 0 200px 0;
+    padding: 107px 0 250px 0;
     background-color: #000;
 }
 .serviceProcessWrap {

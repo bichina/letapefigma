@@ -6,17 +6,48 @@
     margin: 0 auto;
     padding: 95px 0 0 60px; /* 임의로 40px 줄임 */
     box-sizing: border-box;
+    display: block;
 }
 .mainYellowBanner {
     width: 1280px;
     height: 293px;
     margin: auto;
     background-color: blue;
+    bottom: 0;
 }
 .mainClassCard {
     width: 1280px;
     height: 640px;
     margin: 0 auto;
+}
+.classCard {
+  display: none;
+}
+.classCard1 {
+  position: relative;
+  animation: fadeInUp 2s;
+}
+.classCard2 {
+  position: relative;
+  animation: fadeInUp 3s;
+}
+.classCard3 {
+  position: relative;
+  animation: fadeInUp 4s;
+}
+.classCard4 {
+  position: relative;
+  animation: fadeInUp 5s;
+}
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+  }
+  to {
+      opacity: 1;
+      transform: translateZ(0);
+  }
 }
 .mainSlideBox {
     width: 100%;
@@ -34,8 +65,12 @@
 }
 
 /* 텍스트 슬라이드 */
+.mainTop {
+  display: block;
+  height: 713px;
+}
 .main{
-  height:490px;
+  /* height:420px; */
   width:100%;  
   align-items:center;
   justify-content:center;
@@ -58,9 +93,10 @@
 }
 .roller #rolltext2 {
   position: absolute;
-  top: 0;
+  top: 200px;
   animation: slide 3s ;
   animation-delay: 3s;
+  animation-fill-mode:forwards;
 }
 
 @keyframes slide {
@@ -73,45 +109,51 @@
   66%{
     top: 70px;
   }
+  100%{
+    top:0;
+  }
 }
 .main2 {
   background: red;
   padding: 10px;
-  
+  animation: fadein 5s;
+  animation-delay :5s;
+  -moz-animation: fadein 5s; /* Firefox */
+  -webkit-animation: fadein 5s; /* Safari and Chrome */
+  -o-animation: fadein 5s; /* Opera */
 }
 @keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
 }
 @-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
 }
 @-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
 }
 @-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
 }
-
 
 /* 수업설명 카드 */
 .mainClassCard .classCard {
@@ -333,7 +375,6 @@ input:checked + label {
 
 .mainContact {
   width: 100%;
-  height: 710px;
 }
 .mainContact iframe {
   width: 100%;
