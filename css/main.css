@@ -12,16 +12,12 @@
     width: 1280px;
     height: 293px;
     margin: auto;
-    background-color: blue;
-    bottom: 0;
+    padding-bottom: 55px;
 }
 .mainClassCard {
     width: 1280px;
     height: 640px;
     margin: 0 auto;
-}
-.classCard {
-  display: none;
 }
 .classCard1 {
   position: relative;
@@ -66,8 +62,12 @@
 
 /* 텍스트 슬라이드 */
 .mainTop {
+  position: relative;
   display: block;
-  height: 713px;
+  width: 100%;
+  min-width: 1280px;
+  height: 768px;
+  overflow: hidden;
 }
 .main{
   /* height:420px; */
@@ -114,13 +114,45 @@
   }
 }
 .main2 {
-  background: red;
-  padding: 10px;
+  float: right;
+  width: 780px;
+  padding: 60px 0 0 195px;
+  box-sizing: border-box;
   animation: fadein 5s;
   animation-delay :5s;
   -moz-animation: fadein 5s; /* Firefox */
   -webkit-animation: fadein 5s; /* Safari and Chrome */
   -o-animation: fadein 5s; /* Opera */
+}
+.yellowBox1 {
+  position: absolute;
+  top: 450px;
+  left: 40%;
+  width: 100%;
+  height: 32px;
+  border-top: 5px solid #E9CF4A;
+  border-left: 5px solid #E9CF4A;
+  box-sizing: border-box;
+  animation: fadein 7s;
+  animation-delay :7s;
+  -moz-animation: fadein 7s; /* Firefox */
+  -webkit-animation: fadein 7s; /* Safari and Chrome */
+  -o-animation: fadein 7s; /* Opera */
+}
+.yellowBox2 {
+  position: absolute;
+  top: 670px;
+  right: 20%;
+  width: 100%;
+  height: 32px;
+  border-bottom: 5px solid #E9CF4A;
+  border-right: 5px solid #E9CF4A;
+  box-sizing: border-box;
+  animation: fadein 7s;
+  animation-delay :7s;
+  -moz-animation: fadein 7s; /* Firefox */
+  -webkit-animation: fadein 7s; /* Safari and Chrome */
+  -o-animation: fadein 7s; /* Opera */
 }
 @keyframes fadein {
   from {
@@ -157,8 +189,9 @@
 
 /* 수업설명 카드 */
 .mainClassCard .classCard {
-    display: inline-block;
     margin-right: 16px;
+    float: left;
+    text-align: center;
 }
 .mainClassCard .classCard:last-child {
     margin-right: 0;
@@ -166,6 +199,43 @@
 .mainClassCard .classCard a {
     width: 305px;
     height: 640px;
+}
+.classcardBox {
+  width: 305px;
+  height: 640px;
+  padding: 45px 27px 30px 27px;
+  box-sizing: border-box;
+  background: #1F1E23;
+}
+.classcardBox > ul {
+  width: fit-content;
+  padding: 70px 0;
+  text-align: left;
+  margin: 0 auto;
+}
+.classcardBox > ul > li {
+  padding-bottom: 8px;
+}
+.classcardBox > ul > li:last-child {
+  padding-bottom: 0;
+}
+.mainClassCardIcon1 {
+  width: 18px;
+  height: 18px;
+  padding: 10px 0 25px 0;
+}
+.mainClassCardIcon2 {
+  width: 15px;
+  height: 12px;
+  padding-right: 10px;
+}
+.mainClassCardIcon3 {
+  width: 181px;
+  height: 83px;
+}
+.mainClassCardText {
+  text-align: left;
+  padding-top: 20px;
 }
 
 /* 수업광고배너 */
@@ -318,7 +388,19 @@
   left: 480px;
   width: 100%;
 }
-.mainContactWrap div {
+.contactBtn {
+  display: inline-block;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  margin-right: 15px;
+}
+.contactBtn img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+.mainContactWrap .div {
   display: none;
   height: 337px;
   padding: 26px 0 0;
@@ -328,15 +410,7 @@
 .contectAddr {
   padding: 21px 0;
 }
-.contactBtn {
-  padding: 5px 20px;
-  border: 1px solid #fff;
-  border-radius: 100px;
-}
-.contactBtn img {
-  width: 20px;
-  height: 20px;
-}
+
 /*라디오버튼 숨김*/
 input {
     display: none;
