@@ -2,8 +2,7 @@
     width: 100%;
     min-width: 1280px;
     margin: 0 auto;
-    padding-top: 80px;
-    padding-left: 130px;
+    padding: 80px 130px 0 130px;
     box-sizing: border-box;
 }
 .subTitleBox .subTitle {
