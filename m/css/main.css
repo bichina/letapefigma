@@ -288,7 +288,7 @@
   bottom: 80px;
 }
 .slick-dots li button:before {
-  background-color: #1F1E23;
+  background-color: #000;
   opacity: 1;
 }
 .slick-dots li.slick-active button:before {

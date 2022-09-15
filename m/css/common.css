@@ -1,0 +1,390 @@
+/* base */
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+* { 
+    margin: 0px;
+    padding: 0px;
+    font-family: 'NanumSquare';
+    font-size: 16px;
+    color:#fff; 
+}
+body {
+    background-color: #000;
+}
+li { 
+    list-style: none;
+}
+a {
+    text-decoration: none;
+} 
+img {
+    border: none;
+}
+table {
+    border-collapse:collapse;
+    border-spacing: 0px;
+}
+address {
+    font-style: normal;
+}
+fieldset {
+    border: none;
+}
+legend {
+    position: absolute;
+    left: -999em;
+}
+label.away {
+    position: absolute;
+    left: -999em;
+}
+
+/* Text style */
+.h1Light {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.19rem;
+    line-height: 2.19rem;
+}
+.h1Regular {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.19rem;
+    line-height: 2.19rem;
+}
+.h1Bold {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.19rem;
+    line-height: 2.19rem;
+}
+.h1ExtraBold {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.19rem;
+    line-height: 2.19rem;
+}
+
+.h2Light {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.88rem;
+    line-height: 2.19rem;
+}
+.h2Regular {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.88rem;
+    line-height: 2.19rem;
+}
+.h2Bold {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.88rem;
+    line-height: 2.19rem;
+}
+.h2ExtraBold {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.88rem;
+    line-height: 2.19rem;
+}
+
+.titleLight {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.50rem;
+    line-height: 1.88rem;
+}
+.titleRegular {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.50rem;
+    line-height: 1.88rem;
+}
+.titleBold {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.50rem;
+    line-height: 1.88rem;
+}
+.titleExtraBold {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.50rem;
+    line-height: 1.88rem;
+}
+
+.body18Light {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.13rem;
+    line-height: 1.56rem;
+}
+.body18Regular {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.13rem;
+    line-height: 1.75rem;
+}
+.body18Bold {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.13rem;
+    line-height: 1.56rem;
+}
+.body18ExtraBold {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.13rem;
+    line-height: 1.56rem;
+}
+
+.body16Light {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.00rem;
+    line-height: 1.25rem;
+}
+.body16Regular {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.00rem;
+    line-height: 1.63rem;
+}
+.body16Bold {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.00rem;
+    line-height: 1.63rem;
+}
+.body16ExtraBold {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.00rem;
+    line-height: 1.63rem;
+}
+.subtextLight {
+  font-family: 'NanumSquare';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.88rem;
+  line-height: 1.13rem;
+}
+.subtextRegular {
+  font-family: 'NanumSquare';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.88rem;
+  line-height: 1.13rem;
+}
+.subtextBold {
+  font-family: 'NanumSquare';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.88rem;
+  line-height: 1.13rem;
+}
+.subtextExtraBold {
+  font-family: 'NanumSquare';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 0.88rem;
+  line-height: 1.13rem;
+}
+/* color */
+.primary {
+    color: #000;
+}
+.secondary {
+    color: #E9CF4A;
+}
+.coralRed {
+    color: #FF8983;
+}
+.lime {
+    color: #19C7A4;
+}
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 84px;
+    padding: 22px 20px;
+    box-sizing: border-box;
+    background-color: #000;
+    z-index: 999;
+}
+.logo {
+    width: 99px;
+    height: 35px;
+}
+.menu-toggle img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    width: 100%;
+    min-width: 1280px;
+    height: 260px;
+    background-color: #1F1E23;;
+}
+.footerWrap {
+    width: 1280px;
+    height: 260px;
+    margin: 0 auto;
+    padding-top: 70px;
+    box-sizing: border-box;
+    position: relative;
+}
+.footerWrap .footerBox {
+    float: left;
+}
+.footerBox p {
+    float: left;
+    padding-right: 195px;
+}
+.footerBox img {
+    width: 166px;
+    height: 58px;
+    margin-right: 35px;
+}
+footer .footerWrap .cCopy {
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+}
+/* Menu */
+  .page-wrapper {
+    transition: 250ms;
+  }
+  .sidebarContents {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  .sidebar {
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: #1F1E23;
+    opacity: 0.85;
+    color: #fff;
+    transition: 250ms;
+  }
+  .sidebar .sidebarTitle {
+    padding-bottom: 32px;
+  }
+  .sidebar ul li {
+    padding-bottom: 24px;
+  }
+  .sidebar ul li:last-child {
+    padding-bottom: 42px;
+  }
+  .sidebar ul li .menuImg {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 0 13px 0 10px;
+  }
+  .sidebar .link {
+    cursor: pointer;
+    transition: 250ms;
+    font-weight: 300;
+    width: fit-content;
+  }
+  
+  .sidebar .sidebarContents .class1 .menuImg {
+    background-image: url(./../../images/lf_common_menu_icon1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .sidebar .sidebarContents .class2 .menuImg {
+    background-image: url(./../../images/lf_common_menu_icon2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .sidebar .sidebarContents .class3 .menuImg {
+    background-image: url(./../../images/lf_common_menu_icon3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .class1:hover .menuImg{
+    background: url(./../../images/lf_common_menu_icon1_hover.png);
+  }
+  .sidebar.menu-1 {
+    right: -540px;
+  }
+  .menu-toggle {
+    z-index: 100;
+    position: fixed;
+    top: 22px;
+    right: 20px;
+    cursor: pointer;
+    transition: 250ms;
+  }
+  .menu-toggle .menu-label {
+    display: block;
+  }
+  .menu-toggle .close-label {
+    display: none;
+  }
+  
+  #menu1Toggle {
+    display: none;
+  }
+  #menu1Toggle:checked ~ .page-wrapper .sidebar.menu-1 {
+    right: 0;
+    box-shadow: 0 0 15px #000;
+  }
+  #menu1Toggle:checked ~ .page-wrapper .menu-toggle.menu-1-toggle {
+    right: 115px;
+  }
+  #menu1Toggle:checked ~ .page-wrapper .menu-toggle.menu-1-toggle .menu-label {
+    display: none;
+  }
+  #menu1Toggle:checked ~ .page-wrapper .menu-toggle.menu-1-toggle .close-label {
+    display: block;
+  }
+  .closeBtn {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+  .closeBtn img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  
