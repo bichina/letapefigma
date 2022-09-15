@@ -3,12 +3,14 @@
     margin-top: 200px;
     width: 100%;
     min-width: 1280px;
+    height: 1442px;
 }
 .classContents > div {
     float: left;
 }
 .classContents .classBoxLeft {
     width: calc(100% - 513px);
+    height: 1442px;
     padding: 70px 0 0 130px;
     box-sizing: border-box;
     background-color: #1F1E23;
@@ -41,10 +43,11 @@
 }
 
 .classContents .classBoxRight {
+    position: sticky;
     width: 513px;
-    height: 100%;
     padding: 0px 80px 100px 50px;
     box-sizing: border-box;
+    top: 120px;
 }
 
 .classListIcon {
@@ -66,7 +69,20 @@
 .underline {
     text-decoration: underline;
 }
-
+.moveBtnWrap {
+    float: right;
+    padding-top: 50px;
+}
+.moveBtnWrap > a {
+    display: block;
+    width: 214px;
+    height: 83px;
+    margin-top: 27px;
+}
+.moveBtnWrap > a > img {
+    width: 214px;
+    height: 83px;
+}
 /* 기업컨설팅 */
 .class4TopLine {
     display: block;
