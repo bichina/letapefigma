@@ -120,12 +120,14 @@
     min-width: 1280px;
     background-color: #000;
     overflow: hidden;
+    z-index: -2;
 }
 .bgLine {
     position: absolute;
     width: 100%;
     height: 1px;
     background-color:#212121;
+    z-index: -1;
 }
 .bgLine1 {
     top: 151px;
@@ -190,7 +192,7 @@
     padding: 0 77px 0 23px;
 }
 .serviceImg3 {
-    width: 700px;
+    width: 759px;
     height: 350px;
     float: right;
 }
