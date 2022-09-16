@@ -104,28 +104,28 @@ label.away {
     font-family: 'NanumSquare';
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 30px;
 }
 .titleRegular {
     font-family: 'NanumSquare';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 30px;
 }
 .titleBold {
     font-family: 'NanumSquare';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 30px;
 }
 .titleExtraBold {
     font-family: 'NanumSquare';
     font-style: normal;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 30px;
 }
 
@@ -299,7 +299,7 @@ footer .footerWrap .cCopy {
     top: 0;
     bottom: 0;
     background: #1F1E23;
-    opacity: 0.85;
+    opacity: 0.95;
     color: #fff;
     transition: 250ms;
   }

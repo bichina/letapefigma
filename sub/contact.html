@@ -18,7 +18,7 @@
             <label class="menu-toggle menu-1-toggle" for="menu1Toggle">
                 <span class="menu-label"><img src="./../images/lf_common_header_menu_icon.png" alt="메뉴보기"></span>
             </label>
-            <div class="sidebar menu-1 h2Regular">
+            <div class="sidebar menu-1 titleRegular">
                 <div class="sidebarContents">
                     <div class="sidebarTitle">강의안내</div>
                     <ul>
@@ -43,7 +43,55 @@
             <h2 class="subTitle">Contact</h2>
             <h2 class="subTitle">L’étape Figma</h2>
         </div>
-        <div class="mapBox">
+        <div class="mainContact">
+            <div class="mainContactTop">
+                <div class="mainSliderTitle">
+                    <p class="titleTop">L’étape Figma</p>
+                    <h3 class="titleBottom">오시는 길</h3>
+                </div>
+                <div class="mainContactWrap">
+                    <input id="tab1" type="radio" name="tabs" checked> <!--디폴트 메뉴-->
+                    <label for="tab1" class="titleRegular">홍대점</label>
+                
+                    <input id="tab2" type="radio" name="tabs">
+                    <label for="tab2" class="titleRegular">서초점</label>
+                
+                    <div id="content1" class="div">
+                        <p class="titleBold">홍대입구역 3번 출구 / 도보 1분</p>
+                        <p class="body18Regular contectAddr">
+                            2호선, 경의중앙선, 공항철도 <span class="coralRed">홍대입구</span>역에서 하차하신 후 <br>
+                            <span class="lime">3번</span> 출구로 연결되는 계단을 통해 올라오시면 2층에 위치하고 있습니다.<br><br>
+                            서울시 마포구 양화로 183 2층 213호 
+                        </p>
+                        <a href="https://goo.gl/maps/o1Nye3PE7Z8k2Xec6" class=" body16Regular" target="_blank">
+                            <div class="contactBtn"><img src="./../images/lf_contact_map_icon.png" alt=""> Google map</div>
+                        </a>
+                        <a href="https://naver.me/FuEUIQiY" class="body16Regular" target="_blank">
+                            <div class="contactBtn"><img src="./../images/lf_contact_map_icon.png" alt=""> Naver map</div>
+                        </a>
+                    </div>
+                
+                    <div id="content2" class="div">
+                        <p class="titleBold">2호선 서초역 1분  / 3호선 교대역 10분</p>
+                        <p class="body18Regular contectAddr">
+                            <span class="lime">2호선 서초역</span>에서 오시는 경우 <span class="lime">8번 출구</span>로 나오시면 바로 보이는 서현빌딩 4층입니다.<br> 
+                            <span class="coralRed">3호선 교대역</span>에서 오시는 경우 <span class="coralRed">10번 출구</span>로 나오신 후 서초역 방면으로 10분 도보 거리입니다.<br><br>
+                            서울시 서초구 서초대로 243 4층 12호 
+                        </p>
+                        <a href="https://goo.gl/maps/LccN9QtgoRBAdyYU8" class="contactBtn body16Regular" target="_blank"><img src="./../images/lf_contact_map_icon.png" alt=""> Google map</a>
+                        <a href="https://naver.me/5DHDgSOB" class="contactBtn body16Regular" target="_blank"><img src="./../images/lf_contact_map_icon.png" alt=""> Naver map</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="content3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1581.4402590643783!2d126.9250417471325!3d37.557878712795805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c98e9d08dd9db%3A0xdffc8e0d1429053f!2z7ISc7Jq47Yq567OE7IucIOuniO2PrOq1rCDrj5nqtZDrj5kgMTU1LTI3!5e0!3m2!1sko!2skr!4v1663165976808!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div id="content4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1582.839045661269!2d127.00742544084208!3d37.491922151753045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca16d6f8c0477%3A0x14502793deea935b!2z7ISc7Jq47Yq567OE7IucIOyEnOy0iOq1rCDshJzstIjrjIDroZwgMjQz!5e0!3m2!1sko!2skr!4v1663165765989!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <!-- <div class="mapBox">
             <div class="contactWrap">
                 <div class="contact contact1 h2ExtraBold">홍대점</div>
                 <div class="contact contact2">
@@ -71,7 +119,7 @@
                         2호선 서초역 1분  / 3호선 교대역 10분
                     </p>
                     <p class="body18Regular contactText">
-                        2호선 서초역에서 오시는 경우 1번 출구로 나오시면 바로 보이는 서현빌딩 4층입니다.<br/>
+                        2호선 서초역에서 오시는 경우 8번 출구로 나오시면 바로 보이는 서현빌딩 4층입니다.<br/>
                         3호선 교대역에서 오시는 경우 10번 출구로 나오신 후 서초역 방면으로 10분 도보 거리입니다.
                     </p>
                     <a href="https://goo.gl/maps/LccN9QtgoRBAdyYU8" class="contactBtn body16Regular" target="_blank">
@@ -80,7 +128,7 @@
                 </div>
             </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.6603219891617!2d127.0085171!3d37.4923414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca16d6f8c0477%3A0x14502793deea935b!2z7ISc7Jq47Yq567OE7IucIOyEnOy0iOq1rCDshJzstIjrjIDroZwgMjQz!5e0!3m2!1sko!2skr!4v1662650089992!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        </div> -->
     </section>
     <footer>
         <div class="footerWrap">
@@ -102,5 +150,7 @@
             <p class="cCopy"> (c) L’étape Figma Corp.</p>
         </div>
     </footer>
+    <script src="./../js/jquery-3.6.1.min.js"></script>
+    <script src="./../js/sub.js"></script>
 </body>
 </html>
