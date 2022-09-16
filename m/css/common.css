@@ -290,19 +290,20 @@ footer {
     transition: 250ms;
   }
   .sidebar .sidebarTitle {
-    padding-bottom: 32px;
+    padding-bottom: 20px;
   }
   .sidebar ul li {
-    padding-bottom: 24px;
+    padding-bottom: 15px;
   }
   .sidebar ul li:last-child {
-    padding-bottom: 42px;
+    padding-bottom: 20px;
   }
   .sidebar ul li .menuImg {
     display: inline-block;
     width: 18px;
     height: 18px;
     margin: 0 13px 0 10px;
+    vertical-align: middle;
   }
   .sidebar .link {
     cursor: pointer;

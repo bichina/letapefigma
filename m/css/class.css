@@ -33,6 +33,7 @@
     height: 92px;
     line-height: 92px;
     text-align: center;
+    z-index: 1;
 }
 /* 하단 수강신청부분 */
 .layer-popup {

@@ -5,17 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
     <link rel="stylesheet" href="./../plugins/slick.css">
     <link rel="stylesheet" type="text/css" href="./../plugins/slick-theme.css"/>
-    <link rel="stylesheet" href="./../css/test.css">
+    <link rel="stylesheet" href="./../css/test.css"><style>
+      .b { height: 100px; background-color: #bbdefb; display: none; position: absolute; bottom: 0;}
+    </style>
+    
 </head>
+
 <body>
-  <div class="contentsWrap">
-    <div class="st"></div>
+  <div style="width: 500px; height:500px; border:1px solid red;position: relative;">
+    <p><button class="a">Click</button></p>
+    <div class="b"><button class="c">닫기</button></div>
   </div>
+  
 </body>
+
 <script src="./../js/jquery-3.6.1.min.js"></script>
 <script src="./../plugins/slick.min.js"></script>
 <script src="./../js/test.js"></script>
+<script>
+  $( document ).ready( function() {
+    $( 'button.c' ).click( function() {
+      $( '.b' ).slideUp(400);
+    } );
+  } );
+
+  $( document ).ready( function() {
+        $( 'button.a' ).click( function() {
+          $( '.b' ).slideDown();
+        } );
+      } );
+</script>
 </html>

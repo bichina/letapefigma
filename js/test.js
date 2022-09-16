@@ -1,14 +1,12 @@
-$('.slick-carousel').slick({
-  centerMode: false,
-  slidesToShow: 2.1,
-  dots: true,
-  autoplay: true,
-  autoplaySpeed: 3000,
-  pauseOnHover: true,
-  pauseOnDotsHover: true,
-  edgeFriction: 0.05,
-  infinite: true, 
-  dotsClass : "slick-dots",
-  
+jQuery(document).ready(function($) {
+  // auto timer
+  setTimeout(function() {
+    $('#lab-slide-bottom-popup').modal('show');
+  }, 5000); // optional - automatically opens in xxxx milliseconds
+
+  $(document).ready(function() {
+    $('.lab-slide-up').find('a').attr('data-toggle', 'modal');
+    $('.lab-slide-up').find('a').attr('data-target', '#lab-slide-bottom-popup');
+  });
 
 });
