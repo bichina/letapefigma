@@ -103,28 +103,28 @@ label.away {
     font-family: 'NanumSquare';
     font-style: normal;
     font-weight: 300;
-    font-size: 1.50rem;
+    font-size: 1.38em;
     line-height: 1.88rem;
 }
 .titleRegular {
     font-family: 'NanumSquare';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.50rem;
+    font-size: 1.38em;
     line-height: 1.88rem;
 }
 .titleBold {
     font-family: 'NanumSquare';
     font-style: normal;
     font-weight: 700;
-    font-size: 1.50rem;
+    font-size: 1.38em;
     line-height: 1.88rem;
 }
 .titleExtraBold {
     font-family: 'NanumSquare';
     font-style: normal;
     font-weight: 800;
-    font-size: 1.50rem;
+    font-size: 1.38em;
     line-height: 1.88rem;
 }
 
@@ -248,36 +248,24 @@ header {
 
 /* Footer */
 footer {
-    display: flex;
-    width: 100%;
-    min-width: 1280px;
-    height: 260px;
-    background-color: #1F1E23;;
+  width: 100%;
+  height: 406px;
+  padding-top: 50px;
+  box-sizing: border-box;
+  background-color: #1F1E23;
+  text-align: center;
+  opacity: 0.7;
 }
-.footerWrap {
-    width: 1280px;
-    height: 260px;
-    margin: 0 auto;
-    padding-top: 70px;
-    box-sizing: border-box;
-    position: relative;
+.footerLogo {
+  width: 100px;
+  height: 35px;
+  margin: 0 auto;
 }
-.footerWrap .footerBox {
-    float: left;
+.footerBox {
+  padding: 40px 0;
 }
 .footerBox p {
-    float: left;
-    padding-right: 195px;
-}
-.footerBox img {
-    width: 166px;
-    height: 58px;
-    margin-right: 35px;
-}
-footer .footerWrap .cCopy {
-    position: absolute;
-    right: 0;
-    bottom: 80px;
+  padding: 10px 0;
 }
 /* Menu */
   .page-wrapper {

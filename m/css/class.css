@@ -1,0 +1,63 @@
+.classContents {
+    width: 100%;
+    padding: 32px 20px 80px 20px;
+    box-sizing: border-box;
+    background: #1F1E23;
+}
+.className {
+    padding: 7px 0 14px 0;
+}
+.className img {
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.curriculum {
+    padding-top: 56px;
+}
+.curriculumWrap {
+    padding-top: 30px;
+}
+.curriculum1 {
+    float: left;
+}
+.curriculumWrap > img {
+    width: 19px;
+}
+
+.classBtn1 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 92px;
+    line-height: 92px;
+    text-align: center;
+}
+/* 하단 수강신청부분 */
+.layer-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+  }
+  
+  .layer-popup.show {
+    display: block;
+  }
+  
+  .modal-dialog {
+    width: 300px;
+    margin: 40px auto;
+    background-color: #fff;
+  }
+  
+  .modal-content {
+    padding:10px 15px;
+    text-align: center;
+    line-height: 100px;
+  }
