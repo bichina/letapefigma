@@ -2,7 +2,7 @@
 .mainTopBanner {
     width: 100%;
     max-width: 1280px;
-    height: 420px; /* 임의로 40px 줄임 */
+    height: 380px; /* 임의로 40px 줄임 */
     margin: 0 auto;
     padding: 95px 0 0 60px; /* 임의로 40px 줄임 */
     box-sizing: border-box;
@@ -66,7 +66,7 @@
   display: block;
   width: 100%;
   min-width: 1280px;
-  height: 768px;
+  height: 728px;
   overflow: hidden;
 }
 .main{
@@ -89,16 +89,8 @@
 .roller #rolltext {
   position: absolute;
   top: 0;
-  animation: slide 3s ;
+  animation: slide 2s ;
 }
-.roller #rolltext2 {
-  position: absolute;
-  top: 200px;
-  animation: slide 3s ;
-  animation-delay: 3s;
-  animation-fill-mode:forwards;
-}
-
 @keyframes slide {
   0%{
     top:200px;
@@ -118,72 +110,90 @@
   width: 780px;
   padding: 60px 0 0 195px;
   box-sizing: border-box;
-  animation: fadein 5s;
-  animation-delay :5s;
-  -moz-animation: fadein 5s; /* Firefox */
-  -webkit-animation: fadein 5s; /* Safari and Chrome */
-  -o-animation: fadein 5s; /* Opera */
+}
+.main2 p {
+  line-height: 3.5rem;
+  padding-top: 10px;
+}
+
+.line {
+  animation-timing-function: ease-out;
 }
 .yellowBox1 {
   position: absolute;
-  top: 450px;
+  top: 410px;
   left: 40%;
   width: 100%;
   height: 32px;
-  border-top: 5px solid #E9CF4A;
-  border-left: 5px solid #E9CF4A;
-  box-sizing: border-box;
-  animation: fadein 7s;
-  animation-delay :7s;
-  -moz-animation: fadein 7s; /* Firefox */
-  -webkit-animation: fadein 7s; /* Safari and Chrome */
-  -o-animation: fadein 7s; /* Opera */
 }
+.yellowBox1 .line1 {
+  position: absolute;
+  width: 5px;
+  height: 0%;
+  bottom: 0;
+  background-color: #E9CF4A;
+  animation-name: run1;
+  animation-duration: 0.3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+.yellowBox1 .line2 {
+  position: absolute;
+  width: 0%;
+  height: 5px;
+  top: 0;
+  background-color: #E9CF4A;
+  animation-name: run2;
+  animation-duration: 3s;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+}
+
 .yellowBox2 {
   position: absolute;
-  top: 670px;
+  top: 630px;
   right: 20%;
   width: 100%;
   height: 32px;
-  border-bottom: 5px solid #E9CF4A;
-  border-right: 5px solid #E9CF4A;
-  box-sizing: border-box;
-  animation: fadein 7s;
-  animation-delay :7s;
-  -moz-animation: fadein 7s; /* Firefox */
-  -webkit-animation: fadein 7s; /* Safari and Chrome */
-  -o-animation: fadein 7s; /* Opera */
 }
-@keyframes fadein {
+.yellowBox2 .line1 {
+  position: absolute;
+  width: 5px;
+  height: 0%;
+  right: 0;
+  top: 0;
+  background-color: #E9CF4A;
+  animation-name: run1;
+  animation-duration: 0.3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+.yellowBox2 .line2 {
+  position: absolute;
+  width: 0%;
+  height: 5px;
+  right: 0;
+  bottom: 0;
+  background-color: #E9CF4A;
+  animation-name: run2;
+  animation-duration: 3s;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes run1 {
   from {
-      opacity:0;
+    height: 0px;
   }
   to {
-      opacity:1;
+    height: 100%;
   }
 }
-@-moz-keyframes fadein { /* Firefox */
+@keyframes run2 {
   from {
-      opacity:0;
+    width: 100px;
   }
   to {
-      opacity:1;
-  }
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-  from {
-      opacity:0;
-  }
-  to {
-      opacity:1;
-  }
-}
-@-o-keyframes fadein { /* Opera */
-  from {
-      opacity:0;
-  }
-  to {
-      opacity: 1;
+    width: 100%;
   }
 }
 
@@ -287,7 +297,7 @@
   width: 33px;
   height: 5px;
 }
-.slick-dots {
+/* .slick-dots {
   right: 60px;
   bottom: 80px;
 }
@@ -297,7 +307,7 @@
 }
 .slick-dots li.slick-active button:before {
   background-color: #fff;
-}
+} */
 
 /* 동영상 */
 .mainvideoBox video {

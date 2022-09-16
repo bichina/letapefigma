@@ -1,40 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./../plugins/slick.css">
-    <link rel="stylesheet" type="text/css" href="./../plugins/slick-theme.css"/>
-    <link rel="stylesheet" href="./../css/test.css"><style>
-      .b { height: 100px; background-color: #bbdefb; display: none; position: absolute; bottom: 0;}
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS</title>
+    <style>
+      .jb {
+        margin: 10px 0px;
+        width: 100px;
+        height: 40px;
+        background-color: orange;
+      }
+      @keyframes run {
+        from {
+          width: 100px;
+        }
+        to {
+          width: 100%;
+        }
+      }
+      .jb {
+        animation-name: run;
+        animation-duration: 3s;
+        animation-delay: 0.5s;
+        animation-fill-mode: forwards;
+      }
+      .jb1 {
+        animation-timing-function: linear;
+      }
+      .jb2 {
+        animation-timing-function: ease;
+      }
+      .jb3 {
+        animation-timing-function: ease-in;
+      }
+      .jb4 {
+        animation-timing-function: ease-out;
+      }
+      .jb5 {
+        animation-timing-function: ease-in-out;
+      }
     </style>
-    
-</head>
-
-<body>
-  <div style="width: 500px; height:500px; border:1px solid red;position: relative;">
-    <p><button class="a">Click</button></p>
-    <div class="b"><button class="c">닫기</button></div>
-  </div>
-  
-</body>
-
-<script src="./../js/jquery-3.6.1.min.js"></script>
-<script src="./../plugins/slick.min.js"></script>
-<script src="./../js/test.js"></script>
-<script>
-  $( document ).ready( function() {
-    $( 'button.c' ).click( function() {
-      $( '.b' ).slideUp(400);
-    } );
-  } );
-
-  $( document ).ready( function() {
-        $( 'button.a' ).click( function() {
-          $( '.b' ).slideDown();
-        } );
-      } );
-</script>
+  </head>
+  <body>
+    <div class="jb jb1">linear</div>
+    <div class="jb jb2">ease</div>
+    <div class="jb jb3">ease-in</div>
+    <div class="jb jb4">ease-out</div>
+    <div class="jb jb5">ease-in-out</div>
+  </body>
 </html>
