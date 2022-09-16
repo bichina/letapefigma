@@ -321,6 +321,7 @@ footer .footerWrap .cCopy {
     width: 18px;
     height: 18px;
     margin: 0 13px 0 30px;
+    vertical-align: middle;
   }
   .sidebar .link {
     cursor: pointer;
@@ -328,7 +329,10 @@ footer .footerWrap .cCopy {
     font-weight: 300;
     width: fit-content;
   }
-  
+  .link:hover .menuUnderline {
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+  }
   .sidebar .sidebarContents .class1 .menuImg {
     background-image: url(./../images/lf_common_menu_icon1.png);
     background-repeat: no-repeat;
@@ -345,8 +349,19 @@ footer .footerWrap .cCopy {
     background-size: contain;
   }
   .class1:hover .menuImg{
-    background: url(./../images/lf_common_menu_icon1_hover.png);
+    background-image: url(./../images/lf_common_menu_icon1_hover.png)!important;
   }
+  .class2:hover .menuImg{
+    background-image: url(./../images/lf_common_menu_icon2_hover.png)!important;
+  }
+  .class3:hover .menuImg{
+    background-image: url(./../images/lf_common_menu_icon3_hover.png)!important;
+  }
+  .menuUnderline {
+    padding-bottom: 5px;
+    box-sizing: border-box;
+  }
+  
   .sidebar.menu-1 {
     right: -540px;
   }

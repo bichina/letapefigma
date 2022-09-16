@@ -414,6 +414,11 @@
   height: 20px;
   vertical-align: middle;
 }
+.contactBtn:hover {
+  border: 1px solid #FF8983;
+  background-color: #FF8983;
+  transition: 1s;
+}
 .mainContactWrap .div {
   display: none;
   height: 337px;
