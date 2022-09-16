@@ -196,6 +196,10 @@
 .mainClassCard .classCard:last-child {
     margin-right: 0;
 }
+.classCard:hover {
+  transform: scale(1.05, 1.05);
+  transition-duration: 0.5s;
+}
 .mainClassCard .classCard a {
     width: 305px;
     height: 640px;
