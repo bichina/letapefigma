@@ -134,7 +134,7 @@
   background-color: #E9CF4A;
   animation-name: run1;
   animation-duration: 0.3s;
-  animation-delay: 2s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
 }
 .yellowBox1 .line2 {
@@ -145,7 +145,7 @@
   background-color: #E9CF4A;
   animation-name: run2;
   animation-duration: 3s;
-  animation-delay: 2.5s;
+  animation-delay: 1.5s;
   animation-fill-mode: forwards;
 }
 
@@ -165,7 +165,7 @@
   background-color: #E9CF4A;
   animation-name: run1;
   animation-duration: 0.3s;
-  animation-delay: 2s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
 }
 .yellowBox2 .line2 {
@@ -177,7 +177,7 @@
   background-color: #E9CF4A;
   animation-name: run2;
   animation-duration: 3s;
-  animation-delay: 2.5s;
+  animation-delay: 1.5s;
   animation-fill-mode: forwards;
 }
 @keyframes run1 {
@@ -314,6 +314,16 @@
   width: 1280px;
   height: 720px;
   border: 1px solid #1F1E23;
+}
+.mainvideoBox span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(./../images/video-play.png) no-repeat;
+  background-position: 50% 50%;
+}
+.mainvideoBox span:hover {
+  opacity: 0.78n;
 }
 /* 학생 리뷰 */
 .mainReviewBox {
