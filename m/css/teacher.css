@@ -45,7 +45,6 @@
     padding-bottom: 16px;
 }
 .profileHistory ul > .projectDetail li {
-    height: 28px;
     padding-left: 33px;
-    padding-bottom: 4px;
+    margin-bottom: 4px;
 }

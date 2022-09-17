@@ -2,50 +2,21 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8">
-    <title>CSS</title>
+    <title>jQuery</title>
     <style>
-      .jb {
-        margin: 10px 0px;
-        width: 100px;
-        height: 40px;
-        background-color: orange;
-      }
-      @keyframes run {
-        from {
-          width: 100px;
-        }
-        to {
-          width: 100%;
-        }
-      }
-      .jb {
-        animation-name: run;
-        animation-duration: 3s;
-        animation-delay: 0.5s;
-        animation-fill-mode: forwards;
-      }
-      .jb1 {
-        animation-timing-function: linear;
-      }
-      .jb2 {
-        animation-timing-function: ease;
-      }
-      .jb3 {
-        animation-timing-function: ease-in;
-      }
-      .jb4 {
-        animation-timing-function: ease-out;
-      }
-      .jb5 {
-        animation-timing-function: ease-in-out;
-      }
+      .b { height: 100px; background-color: #bbdefb; }
     </style>
+    <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+      $( document ).ready( function() {
+        $( 'button.a' ).click( function() {
+          $( '.b' ).slideUp();
+        } );
+      } );
+    </script>
   </head>
   <body>
-    <div class="jb jb1">linear</div>
-    <div class="jb jb2">ease</div>
-    <div class="jb jb3">ease-in</div>
-    <div class="jb jb4">ease-out</div>
-    <div class="jb jb5">ease-in-out</div>
+    <p><button class="a">Click</button></p>
+    <div class="b"></div>
   </body>
 </html>

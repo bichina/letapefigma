@@ -3,3 +3,477 @@ section {
   padding-top: 84px;
   bottom: 160px;
 }
+/* layout */
+.mainTopBanner {
+  width: 100%;
+  height: 250px; 
+  margin: 0 auto;
+  padding: 80px 0 0 60px; 
+  box-sizing: border-box;
+  display: block;
+}
+.mainYellowBanner {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  margin: auto;
+}
+.mainClassCard {
+  width: 100%;
+  height: 640px;
+  margin: 0 auto;
+}
+.classCard1 {
+position: relative;
+animation: fadeInUp 2s;
+}
+.classCard2 {
+position: relative;
+animation: fadeInUp 3s;
+}
+.classCard3 {
+position: relative;
+animation: fadeInUp 4s;
+}
+.classCard4 {
+position: relative;
+animation: fadeInUp 5s;
+}
+@keyframes fadeInUp {
+0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+}
+to {
+    opacity: 1;
+    transform: translateZ(0);
+}
+}
+.mainSlideBox {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.mainvideoBox {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.mainContact {
+width: 100%;
+min-width: 1280px;
+padding-bottom: 234px;
+}
+
+/* 텍스트 슬라이드 */
+.mainTop {
+display: block;
+width: 100%;
+height: 500px;
+overflow: hidden;
+}
+.main{
+/* height:420px; */
+width:100%;  
+align-items:center;
+justify-content:center;
+text-align:left;
+}
+.roller{
+height: 90px;
+line-height: 4rem;
+position: relative;
+overflow: hidden; 
+width: 100%;
+justify-content: center;
+align-items: center;
+font-weight: 300;
+}
+.roller #rolltext {
+position: absolute;
+top: 0;
+animation: slide 2s ;
+}
+@keyframes slide {
+0%{
+  top:90px;
+}
+33%{
+  top: 60px;    
+}
+66%{
+  top: 30px;
+}
+100%{
+  top:0;
+}
+}
+
+.main2 p {
+  line-height: 2rem;
+  padding-top: 25px;
+  width: fit-content;
+  margin: auto;
+}
+
+.line {
+animation-timing-function: ease-out;
+}
+.yellowBox1 {
+position: absolute;
+top: 0;
+left: 40px;
+width: 100%;
+height: 32px;
+}
+.yellowBox1 .line1 {
+position: absolute;
+width: 3px;
+height: 0%;
+bottom: 0;
+background-color: #E9CF4A;
+animation-name: run1;
+animation-duration: 0.3s;
+animation-delay: 1s;
+animation-fill-mode: forwards;
+}
+.yellowBox1 .line2 {
+position: absolute;
+width: 0%;
+height: 3px;
+top: 0;
+background-color: #E9CF4A;
+animation-name: run2;
+animation-duration: 3s;
+animation-delay: 1.5s;
+animation-fill-mode: forwards;
+}
+
+.yellowBox2 {
+position: absolute;
+bottom: 0;
+right: 40px;
+width: 100%;
+height: 32px;
+}
+.yellowBox2 .line1 {
+position: absolute;
+width: 3px;
+height: 0%;
+right: 0;
+top: 0;
+background-color: #E9CF4A;
+animation-name: run1;
+animation-duration: 0.3s;
+animation-delay: 1s;
+animation-fill-mode: forwards;
+}
+.yellowBox2 .line2 {
+position: absolute;
+width: 0%;
+height: 3px;
+right: 0;
+bottom: 0;
+background-color: #E9CF4A;
+animation-name: run2;
+animation-duration: 3s;
+animation-delay: 1.5s;
+animation-fill-mode: forwards;
+}
+@keyframes run1 {
+from {
+  height: 0px;
+}
+to {
+  height: 100%;
+}
+}
+@keyframes run2 {
+from {
+  width: 100px;
+}
+to {
+  width: 100%;
+}
+}
+
+/* 수업설명 카드 */
+.mainClassCard .classCard {
+  margin-right: 16px;
+  float: left;
+  text-align: center;
+}
+.mainClassCard .classCard:last-child {
+  margin-right: 0;
+}
+.classCard:hover {
+transform: scale(1.05, 1.05);
+transition-duration: 0.5s;
+}
+.mainClassCard .classCard a {
+  width: 305px;
+  height: 640px;
+}
+.classcardBox {
+width: 305px;
+height: 640px;
+padding: 45px 27px 30px 27px;
+box-sizing: border-box;
+background: #1F1E23;
+}
+.classcardBox > ul {
+width: fit-content;
+padding: 70px 0;
+text-align: left;
+margin: 0 auto;
+}
+.classcardBox > ul > li {
+padding-bottom: 8px;
+}
+.classcardBox > ul > li:last-child {
+padding-bottom: 0;
+}
+.mainClassCardIcon1 {
+width: 18px;
+height: 18px;
+padding: 10px 0 25px 0;
+}
+.mainClassCardIcon2 {
+width: 15px;
+height: 12px;
+padding-right: 10px;
+}
+.mainClassCardIcon3 {
+width: 181px;
+height: 83px;
+}
+.mainClassCardText {
+text-align: left;
+padding-top: 20px;
+}
+
+/* 수업광고배너 */
+.mainSlideWrap {
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.mainSliderTitle {
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  background-color: black;
+}
+.titleTop {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.titleBottom {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.19rem;
+}
+.textSlider {
+width: 100%;
+}
+.textSlider .textSliderDiv {
+width: 100%;
+padding: 30px 20px;
+border: 1px solid #1F1E23;
+box-sizing: border-box;
+}
+.textSlider .textSliderDiv ul .sliderLine {
+display: inline-block;
+width: 33px;
+height: 5px;
+}
+/* .slick-dots {
+right: 60px;
+bottom: 80px;
+}
+.slick-dots li button:before {
+background-color: #1F1E23;
+opacity: 1;
+}
+.slick-dots li.slick-active button:before {
+background-color: #fff;
+} */
+
+/* 동영상 */
+.mainvideoBox video {
+width: 100%;
+height: auto;
+border: 1px solid #1F1E23;
+}
+.mainvideoBox span {
+width: 100%;
+height: 100%;
+position: absolute;
+background: url(./../images/video-play.png) no-repeat;
+background-position: 50% 50%;
+}
+.mainvideoBox span:hover {
+opacity: 0.78n;
+}
+/* 학생 리뷰 */
+.mainReviewBox {
+width: 100%;
+min-width: 1280px;
+padding: 160px 0;
+background-color: #1F1E23;
+}
+
+.mainReviewTitle {
+display: inline-block;
+width: 550px;
+height: 470px;
+padding-left: 80px;
+position: relative;
+}
+.mainReviewTitle .mainReviewBtn {
+position: absolute;
+bottom: 0;
+right: 101px;
+}
+.mainReviewWrap {
+float: right;
+/* width: 730px; */
+width: calc(100% - 630px);
+height: 470px;
+}
+.reviewBox {
+width: 336px;
+height: 470px;
+padding: 25px;
+box-sizing: border-box;
+background: #E9CF4A;
+}
+.reviewBox p {
+color: #000;
+}
+.reviewBox img {
+display: block;
+width: 130px;
+height: 130px;
+padding: 20px 0 47px 0;
+margin: 0 auto;
+}
+
+.slick {
+/* width: 730px; */
+height: 470px;
+}
+.item {
+transition: .4s ease all;
+margin-right: 30px;
+}
+.autoplay {
+height: 470px;
+}
+.autoplay > ul {
+top: 550px;
+left: 366px;
+}
+
+.autoplay .slick-dots li button:before {
+background-color: #fff;
+opacity: 1;
+}
+.autoplay .slick-dots li.slick-active button:before {
+background-color: #E9CF4A;
+}
+
+/* 오시는 길 */
+.mainContact {
+overflow: hidden;
+}
+.mainContactTop {
+position: relative;
+width: 1280px;
+height: 523px;
+margin: 0 auto;
+}
+.mainContactTop > div {
+float: left;
+}
+.mainContactWrap {
+position: absolute;
+margin-top: 145px;
+left: 480px;
+width: 100%;
+}
+.contactBtn {
+display: inline-block;
+padding: 5px 20px;
+border: 1px solid #fff;
+border-radius: 100px;
+margin-right: 15px;
+}
+.contactBtn img {
+width: 20px;
+height: 20px;
+vertical-align: middle;
+}
+.contactBtn:hover {
+border: 1px solid #FF8983;
+background-color: #FF8983;
+transition: 1s;
+}
+.mainContactWrap .div {
+display: none;
+height: 337px;
+padding: 26px 0 0;
+border-top: 1px solid #ddd;
+box-sizing: border-box;
+}
+.contectAddr {
+padding: 21px 0;
+}
+
+/*라디오버튼 숨김*/
+input {
+  display: none;
+}
+
+.mainContactWrap label {
+display: inline-block;
+margin: 0 0 -1px;
+padding: 15px 25px;
+font-weight: 400;
+text-align: center;
+color: #fff;
+border: 1px solid transparent;
+}
+
+label:hover {
+cursor: pointer;
+}
+
+/*input 클릭시, label 스타일*/
+input:checked + label {
+  color: #E9CF4A;
+  font-weight: 800;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2 {
+display: block;
+}
+#content3 {
+display: block;
+}
+#content4 {
+display: none;
+}
+
+.mainContact {
+width: 100%;
+}
+.mainContact iframe {
+width: 100%;
+min-width: 1280px;
+height: 710px;
+}
+
