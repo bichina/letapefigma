@@ -222,7 +222,7 @@
 }
 .whoListWrap > li {
     float: left;
-    margin-right: 108px;
+    margin-right: 100px;
     text-align: center;
 }
 .whoListWrap > li:last-child {
