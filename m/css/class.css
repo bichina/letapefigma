@@ -107,3 +107,210 @@
 .underline {
     text-decoration: underline;
 }
+
+/* 기업컨설팅 */
+.subTitleBoxClass4 {
+    width: 100%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+.subTitleBoxClass4 .subTitle {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2.19rem;
+    /* identical to box height, or 146% */
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.subText {
+    padding-top: 16px;
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.19rem;
+    /* identical to box height, or 146% */
+    text-transform: uppercase;
+}
+
+.class4TopTitle {
+    text-align: center;
+}
+.class4FigmaLogo {
+    height: 30px;
+    margin: auto;
+    padding: 10px;
+    display: block;
+}
+.class4TopLine {
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
+}
+.class4TopText {
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.class4Contents {
+    position: relative;
+    padding: 50px 20px;
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    background-color: #000;
+    overflow: hidden;
+    z-index: -2;
+}
+
+.class4ServiceWrap {
+    margin: auto;
+}
+.serviceBox1 {
+    height: fit-content;
+    padding: 50px 0;
+}
+.serviceBox2 {
+    height: fit-content;
+    padding: 50px 0;
+}
+.serviceBox3 {
+    height: fit-content;
+    padding: 50px 0;
+}
+.serviceBox4 {
+    height: fit-content;
+    padding: 50px 0;
+}
+
+.serviceTitle {
+    padding-bottom: 19px;
+    font-family: 'Helvetica';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+}
+.serviceImg1 {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+}
+.serviceImg2 {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+}
+.serviceImg3 {
+    width: 100%;
+    padding: 50px 0;
+    display: block;
+}
+.serviceImg4 {
+    width: 80%;
+    padding: 50px 0;
+    margin: 0 auto;
+    display: block;
+}
+.serviceWho {
+    width: 100%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.serviceWho p {
+    text-align: center;
+}
+.class4BottomLine {
+    display: block;
+    padding-bottom: 29px;
+    margin: 0 auto;
+}
+.whoListWrap > li {
+    text-align: center;
+    padding: 50px 0;
+}
+.whoListWrap > li:last-child {
+    margin-right: 0;
+}
+.whoListImg{
+    width: 318px;
+    height: 337px;
+}
+.whoListLine {
+    width: 40px;
+    padding: 30px 0;
+}
+.whoListTitle {
+    padding-top: 30px;
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+}
+.whoListBold {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 35px;
+}
+.whoListText1 {
+    padding-bottom: 9px;
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+}
+.whoListText2 {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.serviceProcess {
+    width: 100%;
+    padding: 100px 20px;
+    box-sizing: border-box;
+    background-color: #000;
+}
+.processTitle {
+    padding-left: 20px;
+    border-left: 2px solid #E9CF4A;
+}
+.processImg {
+    width: 140px;
+    height: 140px;
+}
+.processContents > ul > li {
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
+.processContents > ul > li:last-child {
+    padding-bottom: 70px;
+}
+.processText {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 6px;
+}
+.classBtn2 {
+    width: 100%;
+    height: 79px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 79px;
+}
