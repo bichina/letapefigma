@@ -331,7 +331,7 @@ footer {
     background: url(./../../images/lf_common_menu_icon1_hover.png);
   }
   .sidebar.menu-1 {
-    right: -540px;
+    right: -100%; /* -540px에서 변경함 */
   }
   .menu-toggle {
     z-index: 100;

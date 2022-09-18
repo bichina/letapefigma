@@ -13,7 +13,13 @@
 // });
 
 $( document ).ready( function() {
-  $( '#classBtn1' ).click( function() {
-    $( '#test' ).slideUp();
+  $( '.classBtn1' ).click( function() {
+    $( '.classBoxRight' ).slideDown();
+  } );
+} );
+
+$( document ).ready( function() {
+  $( '.popupClose' ).click( function() {
+    $( '.classBoxRight' ).slideUp();
   } );
 } );

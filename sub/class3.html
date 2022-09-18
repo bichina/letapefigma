@@ -10,6 +10,15 @@
     <link rel="stylesheet" href="./../css/main.css">
     <link rel="stylesheet" href="./../css/sub.css">
     <link rel="stylesheet" href="./../css/class.css">
+    <script type="text/javascript" language="JavaScript">
+        var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'Windows CE;', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson', 'Mobile', 'Symbian', 'Opera Mobi', 'Opera Mini', 'IEmobile');
+        for (var word in mobileKeyWords){
+            if (navigator.userAgent.match(mobileKeyWords[word]) != null){
+                      window.location.href = "./../m/sub/class3.html";
+                break;
+                  }
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -132,7 +141,7 @@
                     &#9312; &nbsp;매월 첫 주 / 요일별 개강합니다. <br>
                     &#9313; &nbsp;수업은 주 1회(2시간), 4주(총 18시간)으로 진행됩니다. <br>
                     &#9314; &nbsp;<span class="body16ExtraBold" style="background: rgba(25, 199, 164, 0.5)">1:1 프리미엄 코칭</span>을 위하여 한 클래스 당 수강 인원이 
-                    <span class="body16ExtraBold">최대 <span class="lime">5</span>명 이내</span>로 제한됩니다. <br>
+                    <span class="body16ExtraBold">최대 <span class="lime">3</span>명 이내</span>로 제한됩니다. <br>
                     &#9315; &nbsp;최대 인원이 접수되면 해당 월의 수강 신청은 마감됩니다.
                 </p>
                 <a href="https://forms.gle/THE5QABmBkcAumtq9 " target="_blank">
