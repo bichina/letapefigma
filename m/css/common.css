@@ -376,4 +376,25 @@ footer {
     height: 40px;
   }
   
-  
+  .askWrap {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+  }
+  .askWrap a {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    background-color: #1F1E23;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+  }
+  .askWrap a:active {
+    color: #000;
+    font-weight: bold;
+    background-color: #E9CF4A;
+    border: 1px solid #E9CF4A;
+    transition: 0.5s;
+  }

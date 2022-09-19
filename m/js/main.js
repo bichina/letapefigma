@@ -74,10 +74,10 @@ $(function(){
 
 
     $('.autoplay').slick({
-      variableWidth: true, //컨텐츠 너비가 달라짐
+      // variableWidth: true, //컨텐츠 너비가 달라짐
       slide: 'div',
       centerMode: false,
-      slidesToShow: 2,
+      slidesToShow: 1,
       dots: true,
       autoplay: true,
       autoplaySpeed: 2000,
@@ -87,6 +87,7 @@ $(function(){
       infinite: true,
       arrows : false,
       dotsClass : "slick-dots",
+      margin:'10px'
     });
       
 

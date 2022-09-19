@@ -409,7 +409,28 @@ footer .footerWrap .cCopy {
     width: 30px;
     height: 30px;
   }
-
+.askWrap {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+.askWrap a {
+  display: block;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  background-color: #1F1E23;
+  margin: 10px;
+  border-radius: 30px;
+  border: 1px solid #fff;
+}
+.askWrap a:hover {
+  color: #000;
+  font-weight: bold;
+  background-color: #E9CF4A;
+  border: 1px solid #E9CF4A;
+  transition: 0.5s;
+}
 
   @media (min-width: 750px) and (max-width: 1280px){ 
     /* Header */
