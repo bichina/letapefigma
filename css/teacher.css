@@ -72,7 +72,9 @@
         width: 750px;
         margin: 0 auto;
         padding: 155px 0 250px 0;
-        overflow: auto;
+        overflow: hidden;
+        height: 1767px;
+        box-sizing: border-box;
     }
     .profileImg img {
         display: block;
