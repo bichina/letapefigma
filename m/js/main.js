@@ -42,6 +42,23 @@ $(function(){
       slide: 'div',
       centerMode: false,
       slidesToShow: 2,
+      dots: false,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      pauseOnHover: true,
+      pauseOnDotsHover: true,
+      edgeFriction: 0.05,
+      infinite: true,
+      arrows : false,
+      dotsClass : "slick-dots",
+      
+    
+    });
+
+    $('.slick2').slick({
+      slide: 'li',
+      centerMode: false,
+      slidesToShow: 1,
       dots: true,
       autoplay: true,
       autoplaySpeed: 3000,

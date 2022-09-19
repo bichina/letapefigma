@@ -196,31 +196,28 @@ to {
 
 /* 수업설명 카드 */
 .mainClassCard .classCard {
-  margin-right: 16px;
-  float: left;
   text-align: center;
-}
-.mainClassCard .classCard:last-child {
-  margin-right: 0;
-}
-.classCard:hover {
-transform: scale(1.05, 1.05);
-transition-duration: 0.5s;
+  margin: 0 20px;
 }
 .mainClassCard .classCard a {
-  width: 305px;
+  width: 100%;
   height: 640px;
+  margin: 0 20px;
+}
+.slick2 > li {
+  width: 100%;
+  margin: 0 20px;
 }
 .classcardBox {
-width: 305px;
-height: 640px;
-padding: 45px 27px 30px 27px;
+width: 100%;
+height: 510px;
+padding: 30px 27px 30px 27px;
 box-sizing: border-box;
 background: #1F1E23;
 }
 .classcardBox > ul {
 width: fit-content;
-padding: 70px 0;
+padding: 30px 0;
 text-align: left;
 margin: 0 auto;
 }
@@ -233,22 +230,38 @@ padding-bottom: 0;
 .mainClassCardIcon1 {
 width: 18px;
 height: 18px;
-padding: 10px 0 25px 0;
+padding: 10px;
+margin: auto;
+display: block;
 }
 .mainClassCardIcon2 {
 width: 15px;
 height: 12px;
 padding-right: 10px;
+float: left;
+vertical-align: middle;
 }
 .mainClassCardIcon3 {
 width: 181px;
 height: 83px;
+display: block;
+margin: auto;
 }
 .mainClassCardText {
 text-align: left;
 padding-top: 20px;
 }
-
+.slick2 .slick-dots {
+  position: static;
+  margin: auto;
+}
+.slick2 .slick-dots li button:before {
+  background-color: #fff;
+  opacity: 1;
+  }
+  .slick2 .slick-dots li.slick-active button:before {
+  background-color: #E9CF4A;
+  }
 /* 수업광고배너 */
 .mainSlideWrap {
   width: 100%;
@@ -356,7 +369,6 @@ height: 130px;
 padding: 20px 0 47px 0;
 margin: 0 auto;
 }
-
 .slick {
   height: fit-content;
 }
