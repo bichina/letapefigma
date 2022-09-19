@@ -314,21 +314,11 @@ background-color: #fff;
 } */
 
 /* 동영상 */
-.mainvideoBox video {
-width: 100%;
-height: auto;
+.mainvideoBox .video {
 border: 1px solid #1F1E23;
 }
-.mainvideoBox span {
-width: 100%;
-height: 100%;
-position: absolute;
-background: url(./../images/video-play.png) no-repeat;
-background-position: 50% 50%;
-}
-.mainvideoBox span:hover {
-opacity: 0.78n;
-}
+.video-container{position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;} 
+.video-container iframe,.video-container object,.video-container embed{position:absolute;top:0;left:0;width:100%;height:100%;} 
 /* 학생 리뷰 */
 .mainReviewBox {
 width: 100%;
@@ -336,6 +326,7 @@ height: fit-content;
 padding: 50px 20px;
 box-sizing: border-box;
 background-color: #1F1E23;
+margin-top: 30px;
 }
 .mainReviewTitle {
 display: inline-block;
