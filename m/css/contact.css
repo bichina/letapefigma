@@ -18,14 +18,15 @@
     line-height: 2.19rem;
 }
 
-.mainContact {
+.mainContact2 {
     overflow: hidden;
+    padding-bottom: 100px;
   }
-  .mainContactTop {
+  .mainContactTop2 {
     height: fit-content;
     padding: 0 20px;
   }
-  .mainContactWrap {
+  .mainContactWrap2 {
     width: 100%;
     height: 100%;
     padding: 20px 0;
@@ -35,16 +36,16 @@
     padding: 5px 20px;
     border: 1px solid #fff;
     border-radius: 100px;
-    margin-right: 15px;
+    margin: 5px;
   }
   .contactBtn img {
     width: 20px;
     height: 20px;
     vertical-align: middle;
   }
-  .mainContactWrap .div {
+  .mainContactWrap2 .div {
     display: none;
-    height: 337px;
+    height: fit-content;
     padding: 26px 0 0;
     border-top: 1px solid #ddd;
     box-sizing: border-box;
@@ -55,45 +56,44 @@
   
   /*라디오버튼 숨김*/
   input {
-      display: none;
-    }
-  
-  .mainContactWrap label {
-    display: inline-block;
-    margin: 0 0 -1px;
-    padding: 15px 25px;
-    font-weight: 400;
-    text-align: center;
-    color: #fff;
-    border: 1px solid transparent;
-  }
-  
-  label:hover {
-    cursor: pointer;
-  }
-  
-  /*input 클릭시, label 스타일*/
-  input:checked + label {
-      color: #E9CF4A;
-      font-weight: 800;
-    }
-  
-  #tab1:checked ~ #content1,
-  #tab2:checked ~ #content2 {
-    display: block;
-  }
-  #content3 {
-    display: block;
-  }
-  #content4 {
     display: none;
   }
-  
-  .mainContact {
-    width: 100%;
+
+.mainContactWrap2 label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+/*input 클릭시, label 스타일*/
+input:checked + label {
+    color: #E9CF4A;
+    font-weight: 800;
   }
-  .mainContact iframe {
-    width: 100%;
-    height: 400px;
-  }
-  
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2 {
+  display: block;
+}
+#content5 {
+  display: block;
+}
+#content6 {
+  display: none;
+}
+
+.mainContact2 {
+  width: 100%;
+}
+.mainContact2 iframe {
+  width: 100%;
+  height: 400px;
+}

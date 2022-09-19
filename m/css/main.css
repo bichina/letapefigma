@@ -59,8 +59,7 @@ to {
 }
 .mainContact {
 width: 100%;
-min-width: 1280px;
-padding-bottom: 234px;
+padding-bottom: 100px;
 }
 
 /* 텍스트 슬라이드 */
@@ -320,31 +319,28 @@ opacity: 0.78n;
 /* 학생 리뷰 */
 .mainReviewBox {
 width: 100%;
-min-width: 1280px;
-padding: 160px 0;
+height: fit-content;
+padding: 50px 20px;
+box-sizing: border-box;
 background-color: #1F1E23;
 }
-
 .mainReviewTitle {
 display: inline-block;
-width: 550px;
-height: 470px;
-padding-left: 80px;
+height: fit-content;
 position: relative;
 }
-.mainReviewTitle .mainReviewBtn {
-position: absolute;
-bottom: 0;
-right: 101px;
+.mainReviewBtn {
+  width: 200px;
+  height: fit-content;
+  display: block;
+  margin: auto;
 }
-.mainReviewWrap {
-float: right;
-/* width: 730px; */
-width: calc(100% - 630px);
-height: 470px;
+.mainReviewBtn img {
+  width: 200px;
+  height: auto;
 }
 .reviewBox {
-width: 336px;
+width: 100%;
 height: 470px;
 padding: 25px;
 box-sizing: border-box;
@@ -362,19 +358,18 @@ margin: 0 auto;
 }
 
 .slick {
-/* width: 730px; */
-height: 470px;
+  height: fit-content;
 }
 .item {
 transition: .4s ease all;
 margin-right: 30px;
 }
-.autoplay {
-height: 470px;
-}
+/* .autoplay {
+height: 700px;
+} */
 .autoplay > ul {
-top: 550px;
-left: 366px;
+ position: static;
+ padding: 20px 0;
 }
 
 .autoplay .slick-dots li button:before {
@@ -391,25 +386,21 @@ overflow: hidden;
 }
 .mainContactTop {
 position: relative;
-width: 1280px;
-height: 523px;
+height: fit-content;
 margin: 0 auto;
+padding: 20px;
+box-sizing: border-box;
 }
-.mainContactTop > div {
-float: left;
-}
+
 .mainContactWrap {
-position: absolute;
-margin-top: 145px;
-left: 480px;
 width: 100%;
 }
 .contactBtn {
-display: inline-block;
-padding: 5px 20px;
-border: 1px solid #fff;
-border-radius: 100px;
-margin-right: 15px;
+  display: inline-block;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  margin: 5px;
 }
 .contactBtn img {
 width: 20px;
@@ -423,7 +414,7 @@ transition: 1s;
 }
 .mainContactWrap .div {
 display: none;
-height: 337px;
+height: fit-content;
 padding: 26px 0 0;
 border-top: 1px solid #ddd;
 box-sizing: border-box;
@@ -473,7 +464,6 @@ width: 100%;
 }
 .mainContact iframe {
 width: 100%;
-min-width: 1280px;
-height: 710px;
+height: 400px;
 }
 
