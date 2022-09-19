@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./../css/main.css">
     <link rel="stylesheet" href="./../css/sub.css">
     <link rel="stylesheet" href="./../css/teacher.css">
-    <script type="text/javascript" language="JavaScript">
+    <!-- <script type="text/javascript" language="JavaScript">
         var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'Windows CE;', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson', 'Mobile', 'Symbian', 'Opera Mobi', 'Opera Mini', 'IEmobile');
         for (var word in mobileKeyWords){
             if (navigator.userAgent.match(mobileKeyWords[word]) != null){
@@ -18,7 +18,19 @@
                 break;
                   }
         }
-    </script>
+    </script> -->
+    <script type="text/javascript" language="JavaScript">
+        var pc_arr = location.href.split("=");
+        if(pc_arr[1] != "1" && screen.width<480){
+         var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson');
+         for (var word in mobileKeyWords){
+             if (navigator.userAgent.match(mobileKeyWords[word]) != null){
+                 location.href = "./../m/sub/review.html";
+                 break;
+             }
+         }
+     }
+     </script>
 </head>
 <body>
     <header>

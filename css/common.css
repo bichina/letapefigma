@@ -409,5 +409,187 @@ footer .footerWrap .cCopy {
     width: 30px;
     height: 30px;
   }
-  
+
+
+  @media (min-width: 750px) and (max-width: 1280px){ 
+    /* Header */
+  header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      min-width: 750px;
+      height: 120px;
+      padding: 40px;
+      box-sizing: border-box;
+      background-color: #000;
+      z-index: 999;
+  }
+  .logo {
+      width: 110px;
+      height: 39px;
+  }
+  .menu-toggle img {
+      width: 40px;
+      height: 40px;
+  }
+
+  /* Footer */
+  footer {
+      display: flex;
+      width: 100%;
+      min-width: 750px;
+      height: 260px;
+      background-color: #1F1E23;;
+  }
+  .footerWrap {
+      width: 750px;
+      height: 260px;
+      margin: 0 auto;
+      padding-top: 70px;
+      box-sizing: border-box;
+      position: relative;
+  }
+  .footerWrap .footerBox {
+      float: left;
+  }
+  .footerBox p {
+    float: left;
+    padding-right: 30px;
+  }
+  .footerBox img {
+      width: 100px;
+      height: auto;
+      margin-right: 35px;
+  }
+  footer .footerWrap .cCopy {
+      position: absolute;
+      right: 0;
+      bottom: 80px;
+  }
+  /* Menu */
+    .page-wrapper {
+      transition: 250ms;
+    }
+    .sidebarContents {
+      display: table-cell;
+      vertical-align: middle;
+      padding: 60px;
+      box-sizing: border-box;
+    }
+    .sidebar {
+      display: table;
+      width: 537px;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      background: #1F1E23;
+      opacity: 0.95;
+      color: #fff;
+      transition: 250ms;
+    }
+    .sidebar .sidebarTitle {
+      padding-bottom: 32px;
+    }
+    .sidebar ul li {
+      padding-bottom: 24px;
+    }
+    .sidebar ul li:last-child {
+      padding-bottom: 42px;
+    }
+    .sidebar ul li .menuImg {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      margin: 0 13px 0 30px;
+      vertical-align: middle;
+    }
+    .sidebar .link {
+      cursor: pointer;
+      transition: 250ms;
+      font-weight: 300;
+      width: fit-content;
+    }
+    .link:hover .menuUnderline {
+      border-bottom: 1px solid #fff;
+      box-sizing: border-box;
+    }
+    .sidebar .sidebarContents .class1 .menuImg {
+      background-image: url(./../images/lf_common_menu_icon1.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    .sidebar .sidebarContents .class2 .menuImg {
+      background-image: url(./../images/lf_common_menu_icon2.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    .sidebar .sidebarContents .class3 .menuImg {
+      background-image: url(./../images/lf_common_menu_icon3.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    .class1:hover .menuImg{
+      background-image: url(./../images/lf_common_menu_icon1_hover.png)!important;
+    }
+    .class2:hover .menuImg{
+      background-image: url(./../images/lf_common_menu_icon2_hover.png)!important;
+    }
+    .class3:hover .menuImg{
+      background-image: url(./../images/lf_common_menu_icon3_hover.png)!important;
+    }
+    .menuUnderline {
+      padding-bottom: 5px;
+      box-sizing: border-box;
+    }
+    
+    .sidebar.menu-1 {
+      right: -540px;
+    }
+    .menu-toggle {
+      z-index: 100;
+      position: fixed;
+      top: 40px;
+      cursor: pointer;
+      transition: 250ms;
+    }
+    .menu-toggle.menu-1-toggle {
+      right: 40px;
+    }
+    .menu-toggle .menu-label {
+      display: block;
+    }
+    .menu-toggle .close-label {
+      display: none;
+    }
+    
+    #menu1Toggle {
+      display: none;
+    }
+    #menu1Toggle:checked ~ .page-wrapper .sidebar.menu-1 {
+      right: 0;
+      box-shadow: 0 0 15px #000;
+    }
+    #menu1Toggle:checked ~ .page-wrapper .menu-toggle.menu-1-toggle {
+      right: 115px;
+    }
+    #menu1Toggle:checked ~ .page-wrapper .menu-toggle.menu-1-toggle .menu-label {
+      display: none;
+    }
+    #menu1Toggle:checked ~ .page-wrapper .menu-toggle.menu-1-toggle .close-label {
+      display: block;
+    }
+    .closeBtn {
+      display: block;
+      width: 40px;
+      height: 40px;
+      margin: 0 auto;
+      margin-top: 175px;
+    }
+    .closeBtn img {
+      width: 30px;
+      height: 30px;
+    }
+
+  }
   

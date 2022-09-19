@@ -147,4 +147,32 @@
     min-width: 1280px;
     height: 710px;
   }
-  
+
+  @media (min-width: 750px) and (max-width: 1280px){ 
+    .mainContactTop {
+      position: relative;
+      width: 750px;
+      height: 523px;
+      margin: 0 auto;
+    }
+    .mainSliderTitle {
+      width: 100%;
+      height: 300px;
+      padding: 130px 0 0 40px;
+      box-sizing: border-box;
+      background-color: black;
+    }
+    .mainContactWrap {
+      position: static;
+      margin-top: 0;
+      left: 480px;
+      width: 100%;
+      padding: 40px;
+      box-sizing: border-box;
+    }
+    .mainContact iframe {
+      width: 100%;
+      min-width: 750px;
+      height: 500px;
+    }
+  }

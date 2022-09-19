@@ -475,3 +475,91 @@ input:checked + label {
   height: 710px;
 }
 
+@media (min-width: 750px) and (max-width: 1280px){ 
+  .mainTop {
+    min-width: 750px;
+  }
+  .mainYellowBanner {
+    width: 750px;
+  }
+  .yellowBox2 {
+    right: 10%;
+  }
+  .main2 {
+    width: auto;
+    padding: 60px 130px 0 0;
+  }
+  .mainClassCard {
+    width: 750px;
+    height: fit-content;
+    overflow: hidden;
+  }
+  .mainClassCard .classCard {
+    margin: 20px 35px;
+  }
+  .mainSlideWrap > div {
+    float: inherit;
+  }
+  .mainSlideWrap {
+    width: 750px;
+    height: auto;
+  }
+  .mainSliderTitle {
+    width: 100%;
+    height: 280px;
+    padding: 100px 0 0 40px;
+    box-sizing: border-box;
+  }
+  .mainSlideBox {
+    height: fit-content;
+  }
+  .textSlider {
+    width: 750px;
+  }
+  .textSlider .textSliderDiv {
+    height: 300px;
+    padding: 80px 60px 0 60px;
+  }
+  .mainvideoBox {
+    width: 750px;
+  }
+  .mainvideoBox .video {
+    width: 750px;
+    height: 420px;
+  }
+  .mainReviewTitle {
+    width: 360px;
+    padding-left: 60px;
+  }
+  .mainReviewTitle .mainReviewBtn {
+    right: 0;
+  }
+  .mainReviewBox {
+    min-width: 750px;
+  }
+  .mainReviewWrap {
+    width: calc(100% - 460px);
+  }
+  .autoplay > ul {
+    top: 490px;
+    left: 90px;
+  }
+  .mainContactTop {
+    width: 750px;
+    height: fit-content;
+  }
+  .mainContactWrap {
+    position:static;
+    margin-top: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .mainContact iframe {
+    width: 100%;
+    min-width: 750px;
+    height: 500px;
+  }
+  .mainContact {
+    min-width: 750px;
+  }
+}
