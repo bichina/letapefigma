@@ -391,7 +391,8 @@ footer {
     border-radius: 30px;
     border: 1px solid #fff;
   }
-  .askWrap a:active {
+  .askWrap a:active,
+  .askWrap a:hover {
     background-color: #4A65F7;
     border: 1px solid #4A65F7;
     transition: 0.5s;
