@@ -392,8 +392,6 @@ footer {
     border: 1px solid #fff;
   }
   .askWrap a:active {
-    color: #000;
-    font-weight: bold;
     background-color: #4A65F7;
     border: 1px solid #4A65F7;
     transition: 0.5s;
