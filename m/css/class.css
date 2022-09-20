@@ -106,6 +106,7 @@
 }
 .underline {
     text-decoration: underline;
+    text-underline-position: under;
 }
 
 /* 기업컨설팅 */
