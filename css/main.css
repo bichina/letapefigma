@@ -210,9 +210,11 @@
   transform: scale(1.05, 1.05);
   transition-duration: 0.5s;
 }
-.mainClassCard .classCard a {
-    width: 305px;
-    height: 640px;
+.mainClassCard .classCard .classcardBox a {
+    display: block;
+    width: 181px;
+    height: 83px;
+    margin: auto;
 }
 .classcardBox {
   width: 305px;
@@ -233,6 +235,37 @@
 .classcardBox > ul > li:last-child {
   padding-bottom: 0;
 }
+.mainClassCardBtn {
+  position: relative;
+  width: 181px;
+  height: 83px;
+}
+.mainClassCardBtn:hover {
+  transform: scale(1.05, 1.05);
+  transition-duration: 0.5s;
+}
+.mainClassCardBtn:hover .mainClassCardBtnText1 {
+  /* background-color: rgba(255, 137, 131, 0.5); */
+  color: #FF8983;
+  transition-duration: 0.5s;
+}
+.mainClassCardBtn:hover .mainClassCardBtnText2 {
+  color: #E9CF4A;
+  transition-duration: 0.5s;
+}
+.mainClassCardBtn:hover .mainClassCardBtnText3 {
+  color: #19C7A4;
+  transition-duration: 0.5s;
+}
+.mainClassCardBtn:hover .mainClassCardBtnText4 {
+  color: #4A65F7;
+  transition-duration: 0.5s;
+}
+.mainClassCardBtnText {
+  position: absolute;
+  top: 24px;
+  left: 5px;
+}
 .mainClassCardIcon1 {
   width: 18px;
   height: 18px;
@@ -251,6 +284,7 @@
   text-align: left;
   padding-top: 20px;
 }
+
 
 /* 수업광고배너 */
 .mainSlideWrap {
