@@ -243,23 +243,28 @@
 .mainClassCardBtn:hover {
   transform: scale(1.05, 1.05);
   transition-duration: 0.5s;
+  filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.25));
 }
 .mainClassCardBtn:hover .mainClassCardBtnText1 {
   /* background-color: rgba(255, 137, 131, 0.5); */
   color: #FF8983;
   transition-duration: 0.5s;
+  filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.2));
 }
 .mainClassCardBtn:hover .mainClassCardBtnText2 {
   color: #E9CF4A;
   transition-duration: 0.5s;
+  filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.2));
 }
 .mainClassCardBtn:hover .mainClassCardBtnText3 {
   color: #19C7A4;
   transition-duration: 0.5s;
+  filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.2));
 }
 .mainClassCardBtn:hover .mainClassCardBtnText4 {
   color: #4A65F7;
   transition-duration: 0.5s;
+  filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.2));
 }
 .mainClassCardBtnText {
   position: absolute;
@@ -368,6 +373,30 @@
   position: absolute;
   bottom: 0;
   right: 101px;
+  width: 262px;
+  height: 83px;
+}
+.mainReviewBtn .mainReviewBtnWrap {
+  position: relative;
+  width: 262px;
+  height: 83px;
+}
+.mainReviewBtnWrap .mainReviewBtnText {
+  position: absolute;
+  top: 7px;
+  left: 0;
+}
+.mainReviewBtn .mainReviewBtnWrap img {
+  width: 262px;
+  height: 83px;
+}
+.mainReviewBtn:hover {
+  transform: scale(1.05, 1.05);
+  transition-duration: 0.5s;
+  filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.25));
+}
+.mainReviewBtn:hover .mainReviewBtnText {
+  color: #E9CF4A;
 }
 .mainReviewWrap {
   float: right;

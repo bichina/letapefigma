@@ -9,7 +9,7 @@
     float: left;
 }
 .classContents .classBoxLeft {
-    width: calc(100% - 513px);
+    width: calc(100% - 530px);
     height: 1442px;
     padding: 70px 0 0 130px;
     box-sizing: border-box;
@@ -44,7 +44,7 @@
 
 .classContents .classBoxRight {
     position: sticky;
-    width: 513px;
+    width: 530px;
     padding: 0px 80px 0px 50px;
     box-sizing: border-box;
     top: 120px;
@@ -89,6 +89,9 @@
     position: absolute;
     top: 4px;
     left: 0;
+}
+.pd {
+    display: block;
 }
 /* 기업컨설팅 */
 .class4TopLine {
@@ -353,6 +356,9 @@
     }
     .moveBtnWrap {
         padding-top: 0;
+    }
+    .pd {
+        display: inline-block;
     }
 
     /* 기업컨설팅 */
