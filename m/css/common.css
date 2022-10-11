@@ -249,7 +249,7 @@ header {
 /* Footer */
 footer {
   width: 100%;
-  height: 406px;
+  height: 480px;
   padding-top: 50px;
   box-sizing: border-box;
   background-color: #1F1E23;
@@ -377,18 +377,30 @@ footer {
   
   .askWrap {
     position: fixed;
-    bottom: 20px;
-    right: 10px;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 18px;
+    box-sizing: border-box;
+    background-color: #000;
   }
-  .askWrap a {
+  .askWrap .ask {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+  }
+  .askWrap .ask a {
     display: block;
-    width: 100px;
-    padding: 10px;
+    width: 167px;
+    padding: 10px 0;
     text-align: center;
-    background-color: #1F1E23;
-    margin: 10px;
-    border-radius: 30px;
-    border: 1px solid #fff;
+    background-color: #4A65F7;
+    border-radius: 100px;
+  }
+  .askWrap .ask a img {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    vertical-align: middle;
   }
   .askWrap a:active,
   .askWrap a:hover {
