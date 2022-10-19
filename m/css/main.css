@@ -6,9 +6,9 @@ section {
 /* layout */
 .mainTopBanner {
   width: 100%;
-  height: 250px; 
+  /* height: 250px;  */
   margin: 0 auto;
-  padding: 80px 0 0 60px; 
+  padding: 60px 20px; 
   box-sizing: border-box;
   display: block;
 }
@@ -23,7 +23,7 @@ section {
   height: 640px;
   margin: 0 auto;
 }
-.classCard1 {
+/* .classCard1 {
 position: relative;
 animation: fadeInUp 2s;
 }
@@ -48,7 +48,7 @@ to {
     opacity: 1;
     transform: translateZ(0);
 }
-}
+} */
 .mainSlideBox {
   width: 100%;
   padding-bottom: 30px;
@@ -66,7 +66,7 @@ padding-bottom: 100px;
 .mainTop {
 display: block;
 width: 100%;
-height: 500px;
+/* height: 500px; */
 overflow: hidden;
 }
 .main{
@@ -209,9 +209,8 @@ to {
   margin: 0 20px;
 }
 .classcardBox {
-width: 100%;
-height: 510px;
-padding: 30px 27px 30px 27px;
+width: 280px;
+padding: 42px 15px;
 box-sizing: border-box;
 background: #1F1E23;
 }
@@ -227,10 +226,12 @@ padding-bottom: 8px;
 .classcardBox > ul > li:last-child {
 padding-bottom: 0;
 }
+.mainClassCardTitle {
+  padding: 33px 0;
+}
 .mainClassCardIcon1 {
 width: 18px;
 height: 18px;
-padding: 10px;
 margin: auto;
 display: block;
 }
@@ -248,8 +249,8 @@ display: block;
 margin: auto;
 }
 .mainClassCardText {
-text-align: left;
-padding-top: 20px;
+text-align: center;
+padding-bottom: 44px;
 }
 .slick2 .slick-dots {
   position: static;
@@ -351,7 +352,7 @@ width: 100%;
 height: 470px;
 padding: 25px;
 box-sizing: border-box;
-background: #E9CF4A;
+background: #FEF5C9;
 }
 
 .reviewBox p {

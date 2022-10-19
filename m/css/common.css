@@ -273,7 +273,7 @@ footer {
   .sidebarContents {
     display: table-cell;
     vertical-align: middle;
-    padding: 40px;
+    padding: 70px;
     box-sizing: border-box;
   }
   .sidebar {

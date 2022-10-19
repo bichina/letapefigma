@@ -56,9 +56,10 @@ $(function(){
     });
 
     $('.slick2').slick({
+      variableWidth: true, //컨텐츠 너비가 달라짐
       slide: 'li',
       centerMode: false,
-      slidesToShow: 1,
+      slidesToShow: 2,
       dots: true,
       autoplay: true,
       autoplaySpeed: 3000,
