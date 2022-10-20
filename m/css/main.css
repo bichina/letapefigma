@@ -20,7 +20,7 @@ section {
 }
 .mainClassCard {
   width: 100%;
-  height: 640px;
+  height: 404px;
   margin: 0 auto;
 }
 /* .classCard1 {
@@ -250,7 +250,7 @@ margin: auto;
 }
 .mainClassCardText {
 text-align: center;
-padding-bottom: 44px;
+padding-bottom: 33px;
 }
 .slick2 .slick-dots {
   position: static;
@@ -263,6 +263,14 @@ padding-bottom: 44px;
   .slick2 .slick-dots li.slick-active button:before {
   background-color: #E9CF4A;
   }
+/* 커리큘럼 페이지 이동 */
+.mainCurriculum {
+  margin: 0 auto;
+  padding: 53px 0 60px 0;
+  text-align: center;
+  text-decoration-line: underline;
+  text-underline-position: under;
+}
 /* 수업광고배너 */
 .mainSlideWrap {
   width: 100%;

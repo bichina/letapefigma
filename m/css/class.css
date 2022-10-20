@@ -315,3 +315,40 @@
     text-align: center;
     line-height: 79px;
 }
+
+/* curriculum */
+.curriculumTitle {
+    padding: 36px 20px 88px 20px;
+    box-sizing: border-box;
+}
+.subTitle2 {
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2.19rem;
+    /* identical to box height, or 146% */
+    letter-spacing: 10px;
+}
+.curriculumContents {
+    width: 100%;
+    padding: 0 20px 157px 20px;
+    box-sizing: border-box;
+}
+.curriculumClassBox {
+    width: 100%;
+    padding: 20px 14px 15px 12px;
+    box-sizing: border-box;
+    background: #1F1E23;
+}
+.curriculumClassTitle {
+    display: flex;
+}
+.curriculumClassTitle img {
+    width: 19px;
+    height: 19px;
+    padding-right: 10px;
+}
+.curriculumTextBold {
+    padding: 3px 0 5px 0;
+}
