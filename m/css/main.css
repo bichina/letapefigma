@@ -51,7 +51,6 @@ to {
 } */
 .mainSlideBox {
   width: 100%;
-  padding-bottom: 30px;
 }
 .mainvideoBox {
   width: 100%;
@@ -274,19 +273,13 @@ padding-bottom: 33px;
 /* 수업광고배너 */
 .mainSlideWrap {
   width: 100%;
-  padding: 0 20px;
   box-sizing: border-box;
-}
-.mainSliderTitle {
-  padding-bottom: 20px;
-  box-sizing: border-box;
-  background-color: black;
 }
 .titleTop {
   font-family: 'Helvetica Neue';
   font-style: normal;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.13rem;
   line-height: 1.5rem;
 }
 .titleBottom {
@@ -301,14 +294,30 @@ width: 100%;
 }
 .textSlider .textSliderDiv {
 width: 100%;
-padding: 30px 20px;
-border: 1px solid #1F1E23;
+height: 290px;
+padding: 7px 20px;
 box-sizing: border-box;
 }
-.textSlider .textSliderDiv ul .sliderLine {
-display: inline-block;
-width: 33px;
-height: 5px;
+.textSliderDiv ul li p {
+  display: inline-block;
+}
+.textSliderDiv ul li .sliderBarWrap {
+  display: inline-block;
+}
+.textSliderDiv ul li .sliderBarWrap img {
+  float: left;
+  width: 18px;
+  padding-left: 10px;
+}
+.textSliderfigmaLogo {
+  display: inline-block !important;
+  width: 13px;
+  height: 20px;
+  padding: 0 5px;
+  vertical-align: middle;
+}
+.textSlider > .slick-dotted.slick-slider {
+  margin-bottom: 0;
 }
 /* .slick-dots {
 right: 60px;
@@ -324,13 +333,28 @@ background-color: #fff;
 
 /* 동영상 */
 .mainvideoBox .video {
-border: 1px solid #1F1E23;
+  border: 1px solid #1F1E23;
 }
-.video-container{position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;} 
-.video-container iframe,.video-container object,.video-container embed{position:absolute;top:0;left:0;width:100%;height:100%;} 
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  /* padding-top:30px; */
+  height:0;
+  overflow:hidden;
+} 
+.video-container iframe,
+.video-container object,
+.video-container embed
+{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+} 
 /* 학생 리뷰 */
 .item2 {
-  padding: 0 10px;
+  padding-right: 20px;
 }
 .mainReviewBox {
 width: 100%;
@@ -338,7 +362,6 @@ height: fit-content;
 padding: 50px 20px;
 box-sizing: border-box;
 background-color: #1F1E23;
-margin-top: 30px;
 }
 .mainReviewTitle {
 display: inline-block;
@@ -356,7 +379,7 @@ position: relative;
   height: auto;
 }
 .reviewBox {
-width: 100%;
+width: 280px;
 height: 470px;
 padding: 25px;
 box-sizing: border-box;

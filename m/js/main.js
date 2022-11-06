@@ -68,11 +68,11 @@ $(".slick2").slick({
 });
 
 $(".autoplay").slick({
-  // variableWidth: true, //컨텐츠 너비가 달라짐
+  variableWidth: true, //컨텐츠 너비가 달라짐
   slide: "div",
   centerMode: false,
-  slidesToShow: 1,
-  dots: true,
+  slidesToShow: 2,
+  dots: false,
   autoplay: true,
   autoplaySpeed: 2000,
   pauseOnHover: true,
