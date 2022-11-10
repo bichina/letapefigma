@@ -338,6 +338,7 @@
 .curriculumClassBox {
     width: 100%;
     padding: 20px 14px 15px 12px;
+    margin-bottom: 20px;
     box-sizing: border-box;
     background: #1F1E23;
 }
@@ -351,4 +352,15 @@
 }
 .curriculumTextBold {
     padding: 3px 0 5px 0;
+}
+.pinkchip {
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 11px 7px 0 0 ;
+    border-radius: 100px;
+    border: 1px solid #FF8983;
+}
+.curriculumClassPrice {
+    text-align: right;
+    padding-top: 27px;
 }

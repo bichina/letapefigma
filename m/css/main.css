@@ -196,7 +196,7 @@ to {
 /* 수업설명 카드 */
 .mainClassCard .classCard {
   text-align: center;
-  margin: 0 20px;
+  margin-left: 20px;
 }
 .mainClassCard .classCard a {
   width: 100%;
