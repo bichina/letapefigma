@@ -371,3 +371,18 @@
     text-align: right;
     padding-top: 27px;
 }
+
+/* 디자인 변경으로 인해 서브페이지 다시 작업 2022.11 */
+.classheaderWrap {
+    margin-top: 45px;
+    text-align: center;
+}
+.classheaderMenu {
+    float: left;
+    width: 50px;
+}
+.classheaderMenu img {
+    width: 19px;
+    height: 19px;
+    padding-top: 10px;
+}
