@@ -378,8 +378,9 @@
     text-align: center;
 }
 .classheaderMenu {
-    float: left;
+    display: inline-block;
     width: 50px;
+    padding: 15px 18px;
 }
 .classheaderMenu img {
     width: 19px;
