@@ -387,3 +387,63 @@
     height: 19px;
     padding-top: 10px;
 }
+.classCourseContents {
+    padding: 0 20px 78px 20px;
+}
+.figmaClassChip {
+    display: inline-block;
+    padding: 5px 15px;
+    margin-bottom: 12px;
+    border-radius: 30px;
+    background-color: #FF8983;
+}
+.courseText {
+    padding: 7px 0 40px 0;
+}
+.coursePrice {
+    display: flex;
+    width: fit-content;
+    padding: 5px 15px;
+    margin: auto;
+    border-radius: 30px;
+    border: 1px solid #FF8983;
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.whoClass {
+    text-align: center;
+}
+.whoClassSlider {
+    width: 100%;
+    overflow: hidden;
+}
+.whoClassSlider {
+    width: 100%;
+    height: fit-content;
+    float: left;
+}
+.whoClassSlider img {
+    width: 100%;
+    height: auto;
+}
+.classWhoListWrap {
+    width: 100%;
+    padding: 30px 20px 50px 20px;
+    box-sizing: border-box;
+}
+.classWhoList {
+    display: flex;
+    padding-bottom: 12px;
+    text-align: left;
+}
+.classWhoList:last-child {
+    padding-bottom: 0;
+}
+.whoCheckIcon {
+    width: 24px;
+    height: 24px;
+    padding-right: 10px;
+}

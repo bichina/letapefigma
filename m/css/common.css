@@ -1,6 +1,12 @@
 /* base */
 @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
 @import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+@font-face {
+  font-family: 'Cafe24Shiningstar';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Shiningstar.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 * { 
     margin: 0px;
@@ -212,6 +218,20 @@ label.away {
   font-weight: 800;
   font-size: 0.88rem;
   line-height: 1.13rem;
+}
+.cafe24Star1 {
+  font-family: 'Cafe24Shiningstar';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 25px;
+}
+.cafe24Star2 {
+  font-family: 'Cafe24Shiningstar';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 35px;
 }
 /* color */
 .primary {

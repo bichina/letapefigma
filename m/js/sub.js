@@ -12,17 +12,36 @@
 //   }
 // });
 
-$( document ).ready( function() {
-  $( '.classBtn1' ).click( function() {
-    $( '.classBoxRight' ).slideDown();
-  } );
-} );
+//팝업
+// $( document ).ready( function() {
+//   $( '.classBtn1' ).click( function() {
+//     $( '.classBoxRight' ).slideDown();
+//   } );
+// } );
 
-$( document ).ready( function() {
-  $( '.popupClose' ).click( function() {
-    $( '.classBoxRight' ).slideUp();
-  } );
-} );
+// $( document ).ready( function() {
+//   $( '.popupClose' ).click( function() {
+//     $( '.classBoxRight' ).slideUp();
+//   } );
+// } );
+
+//강의소개 상단 이미지 슬라이드
+$("whoClassSlider").slick({
+  variableWidth: true, //컨텐츠 너비가 달라짐
+  slide: "li",
+  centerMode: false,
+  slidesToShow: 2,
+  dots: false,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  pauseOnHover: true,
+  pauseOnDotsHover: true,
+  edgeFriction: 0.05,
+  infinite: true,
+  arrows: false,
+  // dotsClass : "slick-dots",
+  dotsClass: false,
+});
 
 //오시는 길
 
