@@ -439,7 +439,6 @@ width: 100%;
   padding: 5px 20px;
   border: 1px solid #fff;
   border-radius: 100px;
-  margin: 5px;
 }
 .contactBtn img {
 width: 20px;
@@ -454,8 +453,7 @@ transition: 1s;
 .mainContactWrap .div {
 display: none;
 height: fit-content;
-padding: 26px 0 0;
-border-top: 1px solid #ddd;
+padding-top: 15px;
 box-sizing: border-box;
 }
 .contectAddr {
@@ -469,12 +467,12 @@ input {
 
 .mainContactWrap label {
 display: inline-block;
-margin: 0 0 -1px;
-padding: 15px 25px;
+margin-right: 15px;
+padding-bottom: 3px;
 font-weight: 400;
 text-align: center;
 color: #fff;
-border: 1px solid transparent;
+border-bottom: 8px solid #1F1E23;
 }
 
 label:hover {
@@ -485,6 +483,7 @@ cursor: pointer;
 input:checked + label {
   color: #E9CF4A;
   font-weight: 800;
+  border-bottom: 8px solid #E9CF4A;
 }
 
 #tab1:checked ~ #content1,
@@ -493,9 +492,11 @@ display: block;
 }
 #content3 {
 display: block;
+text-align: center;
 }
 #content4 {
 display: none;
+text-align: center;
 }
 
 .mainContact {
@@ -503,6 +504,7 @@ width: 100%;
 }
 .mainContact iframe {
 width: 100%;
-height: 400px;
+height: 185px;
+margin-bottom: 38px;
 }
 
