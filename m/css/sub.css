@@ -38,3 +38,10 @@
   height: 12px;
   padding-right: 10px;
 }
+.listCurriculum {
+  width: fit-content;
+  margin: 50px auto;
+}
+.listCurriculum li {
+  padding-top: 10px;
+}
