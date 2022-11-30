@@ -326,8 +326,109 @@
     text-align: center;
     line-height: 79px;
 }
-
-
+/* 페이지 디자인 변경으로 인해 추가 2022.11 */
+.contentsWrap {
+    width: 1280px;
+    margin: auto;
+}
+.classMenuWrap {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    padding: 115px 0 95px 0;
+}
+.classMenuWrap li {
+    float: left;
+    width: fit-content;
+    margin: 0 45px;
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+.classMenuWrap li img {
+    width: 18px;
+    height: 18px;
+}
+.classContentsTopTitle {
+    width: 1280px;
+    margin: auto;
+    float: unset !important;
+    text-align: center;
+}
+.classContentsTopTitle p {
+    padding-bottom: 25px;
+    text-align: center;
+    margin-bottom: 33px;
+}
+.border1 {
+    border-bottom: 5px solid #FF8983;
+}
+.classContentsTop {
+    padding: 58px 0 61px 0;
+}
+.classContentsTop ul {
+    width: fit-content;
+    height: 82px;
+    margin: auto;
+}
+.classContentsTop ul li {
+    float: left;
+    padding-right: 110px;
+}
+.classContentsTop ul li:last-child {
+    padding-right: 0;
+}
+.classContentsTop ul li img,
+.classContentsTop ul li div {
+    display: inline-block;
+    vertical-align: top;
+}
+.classContentsTop ul li img {
+    padding-right: 20px;
+}
+.classContentsPrice {
+    width: 1280px;
+    height: 267px;
+    padding: 53px 56px 63px 56px;
+    box-sizing: border-box;
+    background: #1F1E23;
+}
+.classContentsPrice > div {
+    float: left;
+}
+.priceBox1 {
+    padding-left: 45px;
+}
+.chipPink {
+    display: inline-block;
+    align-items: center;
+    padding: 5px 15px;
+    gap: 10px;
+    background: #FF8983;
+    border-radius: 100px;
+}
+.classContentsPrice .price {
+    padding: 18px 0;
+}
+.priceCheck {
+    width: 15px;
+    height: 12px;
+    padding-right: 10px;
+}
+.classContentsPrice .applyBtn {
+    display: inline-block;
+    width: 300px;
+    height: 79px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 79px;
+}
 @media (min-width: 750px) and (max-width: 1280px){ 
     .classContents {
         margin-top: 200px;

@@ -16,6 +16,25 @@
     letter-spacing: 40px;
     text-transform: uppercase;
 }
+.subTitleBox2 {
+    width: 100%;
+    min-width: 1280px;
+    margin: 0 auto;
+    padding: 80px 130px 115px 130px;
+    box-sizing: border-box;
+}
+.subTitleBox .subTitle2 {
+    padding-top: 30px;
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 35px;
+    /* identical to box height, or 100% */
+    letter-spacing: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
 .subText {
     padding-top: 37px;
 }
