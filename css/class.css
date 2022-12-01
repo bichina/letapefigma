@@ -393,6 +393,7 @@
     padding-right: 20px;
 }
 .classContentsPrice {
+    display: flex;
     width: 1280px;
     height: 267px;
     padding: 53px 56px 63px 56px;
@@ -401,6 +402,13 @@
 }
 .classContentsPrice > div {
     float: left;
+    padding-right: 190px;
+}
+.priceBox {
+    padding-top: 45px;
+}
+.priceBox div {
+    padding-bottom: 10px;
 }
 .priceBox1 {
     padding-left: 45px;
@@ -422,13 +430,27 @@
     padding-right: 10px;
 }
 .classContentsPrice .applyBtn {
-    display: inline-block;
     width: 300px;
     height: 79px;
     border-radius: 10px;
     text-align: center;
     line-height: 79px;
+    margin-top: 60px;
 }
+.classContentsBottom {
+    padding: 61px 0 250px 0;
+    overflow: hidden;
+}
+.curriculumCourseTitle {
+    padding: 13px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 82px;
+    width: 397px;
+}
+
+
+
+
 @media (min-width: 750px) and (max-width: 1280px){ 
     .classContents {
         margin-top: 200px;

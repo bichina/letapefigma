@@ -1,42 +1,23 @@
-.modal.fade.in .lab-modal-body {
-    bottom: 0;
-    opacity: 1;
-  }
-  
-  .lab-modal-body h1 {
-    font-size: 4rem;
-  }
-  
-  .lab-modal-body p {
-    margin: 0 0 1.62rem 0;
-    line-height: 1.62;
-    font-weight: 300;
-    font-size: 1.62rem;
-    color: #666;
-  }
-  
-  .lab-modal-body {
-    position: relative;
-    bottom: -250px;
-    margin: 150px auto 0;
-    padding: 40px;
-    max-width: 60%;
-    height: auto;
-    background-color: rgb(248, 250, 247);
-    border: 1px solid #BEBEBE;
-    opacity: 0;
-    -webkit-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
-    -moz-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
-    -o-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
-    transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
-  }
-  
-  .close {
-    margin-top: -20px;
-    margin-right: -20px;
-    text-shadow: 0 1px 0 #ffffff;
-  }
-  
-  .popup-button {
-    margin-top: 70px;
-  }
+html,body{ margin:0;}
+#container{ width: 100%; margin: 0 auto;}
+h1{ text-align: center;}
+.album{height: 400px; width: 100%; overflow: hidden;} /* overflow 되면 숨긴다*/
+.images{ 
+    display: flex; height: 400px; width: 2560px;
+    transition-property: transform; /* transform 속성에대해, js코드에 의해 transform 스타일 추가된다*/
+    transition-duration: 1s; /* transition 지속시간 */
+}
+.image{width: 640px; height: 400px;}
+.image:nth-child(1){background-color: tomato;}
+.image:nth-child(2){background-color: teal;}
+.image:nth-child(3){background-color: orange;}
+.image:nth-child(4){background-color: green;}
+button{
+    width: 100px; height: 30px; border:none;
+    color: white; background-color: blueviolet;
+}
+button:disabled{ /* disabled 된 버튼 */
+    background-color: gray;
+}
+.prev{ float:left}
+.next{ float:right}

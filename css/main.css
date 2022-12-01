@@ -2,9 +2,10 @@
 .mainTopBanner {
     width: 100%;
     max-width: 1280px;
-    height: 380px; /* 임의로 40px 줄임 */
+    /* height: 380px; 리뉴얼전 세로길이 */
+    height: 450px;
     margin: 0 auto;
-    padding: 95px 0 0 60px; /* 임의로 40px 줄임 */
+    padding: 95px 0 0 60px;
     box-sizing: border-box;
     display: block;
 }
@@ -16,8 +17,10 @@
 }
 .mainClassCard {
     width: 1280px;
-    height: 640px;
+    /* height: 640px; 리뉴얼전 세로길이 */
+    height: fit-content;
     margin: 0 auto;
+    overflow: hidden;
 }
 .classCard1 {
   position: relative;
@@ -48,6 +51,7 @@
 .mainSlideBox {
     width: 100%;
     height: 416px;
+    background-color: #000;
 }
 .mainvideoBox {
     width: 1280px;
@@ -67,6 +71,12 @@
   width: 100%;
   min-width: 1280px;
   height: 728px;
+  overflow: hidden;
+}
+.mainTop2 {
+  display: block;
+  width: 100%;
+  min-width: 1280px;
   overflow: hidden;
 }
 .main{
@@ -223,6 +233,13 @@
   box-sizing: border-box;
   background: #1F1E23;
 }
+.classcardBox2 {
+  width: 305px;
+  height: 394px;
+  padding: 45px 0 30px 0;
+  box-sizing: border-box;
+  background: #1F1E23;
+}
 .classcardBox > ul {
   width: fit-content;
   padding: 70px 0;
@@ -239,6 +256,7 @@
   position: relative;
   width: 181px;
   height: 83px;
+  margin: auto;
 }
 .mainClassCardBtn:hover {
   transform: scale(1.05, 1.05);
@@ -289,6 +307,10 @@
   text-align: left;
   padding-top: 20px;
 }
+.mainClassCardText2 {
+  text-align: center;
+  padding: 33px 0 44px 0;
+}
 
 
 /* 수업광고배너 */
@@ -330,6 +352,7 @@
   height: 416px;
   padding: 138px 60px 0 60px;
   box-sizing: border-box;
+  background-color: #000;
 }
 .textSlider .textSliderDiv ul .sliderLine {
   display: inline-block;
