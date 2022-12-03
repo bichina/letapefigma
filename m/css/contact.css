@@ -47,7 +47,7 @@
     display: none;
     height: fit-content;
     padding: 26px 0 0;
-    border-top: 1px solid #ddd;
+    /* border-top: 1px solid #ddd; */
     box-sizing: border-box;
   }
   .contectAddr {
@@ -61,12 +61,19 @@
 
 .mainContactWrap2 label {
   display: inline-block;
+  margin-right: 15px;
+  padding-bottom: 3px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  border-bottom: 8px solid #1F1E23;
+  /* display: inline-block;
   margin: 0 0 -1px;
   padding: 15px 25px;
   font-weight: 400;
   text-align: center;
   color: #fff;
-  border: 1px solid transparent;
+  border: 1px solid transparent; */
 }
 
 label:hover {
@@ -77,6 +84,9 @@ label:hover {
 input:checked + label {
     color: #E9CF4A;
     font-weight: 800;
+    border-bottom: 8px solid #E9CF4A;
+    /* color: #E9CF4A;
+    font-weight: 800; */
   }
 
 #tab1:checked ~ #content1,

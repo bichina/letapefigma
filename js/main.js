@@ -83,3 +83,28 @@ $(function(){
         $('#content4').show().siblings('#content3').hide();
       })
     });
+
+    
+    
+
+    $(document).ready(function(){
+      $("#layerPopup").hide();
+      $(".item2 > a").click(function(){
+        $(".item2 > a").blur();
+        $("#layerPopup").show();
+        $("#layerPopup a").focus();
+        return false;
+      });
+      $("#layerPopup .close").keydown(function(e){
+        if(e.shiftKey && e.keyCode == 9){ // Shift + Tab 키를 의미합니다.
+          $(".item2 > .close").focus();
+          $("#layerPopup").hide();
+          return false;
+        }
+      });
+      
+      $("#layerPopup .close").click(function(){
+        $(".item2 > a").focus();
+        $("#layerPopup").hide();
+      });
+    });

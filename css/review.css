@@ -11,7 +11,7 @@
     margin: 30px;
     padding: 25px;
     box-sizing: border-box;
-    background: #E9CF4A;
+    background: #FEF5C9;
 }
 .reviewBox p {
     color: #000;
@@ -23,6 +23,7 @@
     padding: 20px 0 47px 0;
     margin: 0 auto;
 }
+
 @media (min-width: 750px) and (max-width: 1280px){ 
     .reviewWrap {
         overflow: hidden;

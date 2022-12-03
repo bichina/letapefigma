@@ -388,7 +388,7 @@
     padding-top: 10px;
 }
 .classCourseContents {
-    padding: 0 20px 78px 20px;
+    padding: 37px 20px 78px 20px;
 }
 .figmaClassChip {
     display: inline-block;
@@ -396,6 +396,14 @@
     margin-bottom: 12px;
     border-radius: 30px;
     background-color: #FF8983;
+}
+.figmaClassChip2 {
+    display: inline-block;
+    padding: 5px 15px;
+    margin-bottom: 12px;
+    border-radius: 30px;
+    background-color: #E9CF4A;
+    color: #000;
 }
 .courseText {
     padding: 7px 0 40px 0;
@@ -407,6 +415,19 @@
     margin: auto;
     border-radius: 30px;
     border: 1px solid #FF8983;
+    font-family: 'NanumSquare';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.coursePrice2 {
+    display: flex;
+    width: fit-content;
+    padding: 5px 15px;
+    margin: auto;
+    border-radius: 30px;
+    border: 1px solid #E9CF4A;
     font-family: 'NanumSquare';
     font-style: normal;
     font-weight: 700;
@@ -471,3 +492,58 @@
 }
 
 
+.classCurriculumSlideBox{ margin:0;}
+#container{ 
+    width: 100%;
+    margin: 0 auto;
+    padding: 35px 20px 28px 20px;
+    box-sizing: border-box;
+}
+h1{ text-align: center;}
+.album{height: 250px; width: 100%; overflow: hidden;} /* overflow 되면 숨긴다*/
+.albumTitle {
+    padding: 6px 0 17px 0;
+}
+.images{ 
+    display: flex; height: 250px; width: 2560px;
+    transition-property: transform; /* transform 속성에대해, js코드에 의해 transform 스타일 추가된다*/
+    transition-duration: 1s; /* transition 지속시간 */
+}
+.image{width: 640px; height: 250px;}
+/* .image:nth-child(1){background-color: tomato;} 
+.image:nth-child(2){background-color: teal;}
+.image:nth-child(3){background-color: orange;}
+.image:nth-child(4){background-color: green;}*/
+#container .buttonWrap{
+    display: flex;
+}
+#container button{
+    margin: auto;
+    width: 60px;
+    height: 30px;
+    border:none;
+    color: #fff;
+    background-color: #1F1E23;
+}
+button:disabled{ /* disabled 된 버튼 */
+    display: none;
+}
+.buttonWrap img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+/* .prev{ float:left}
+.next{ float:right} */
+
+.classPrice {
+    text-align: center;
+}
+.classPrice p{
+    padding: 10px 0;
+}
+.classPriceBtn {
+    width: 265px;
+    height: 83px;
+    margin: 50px 0 150px 0;
+}

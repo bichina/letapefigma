@@ -55,7 +55,8 @@
 }
 .mainvideoBox {
     width: 1280px;
-    padding-bottom: 128px;
+    padding-top: 150px;
+    padding-bottom: 100px;
     margin: 0 auto;
 }
 .mainContact {
@@ -336,6 +337,13 @@
     font-size: 30px;
     line-height: 35px;
 }
+.titleTop2 {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 35px;
+}
 .titleBottom {
     font-family: 'Helvetica Neue';
     font-style: normal;
@@ -419,7 +427,7 @@
   filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.25));
 }
 .mainReviewBtn:hover .mainReviewBtnText {
-  color: #E9CF4A;
+  color: #FEF5C9;
 }
 .mainReviewWrap {
   float: right;
@@ -432,7 +440,7 @@
   height: 470px;
   padding: 25px;
   box-sizing: border-box;
-  background: #E9CF4A;
+  background: #FEF5C9;
 }
 .reviewBox p {
   color: #000;
@@ -559,6 +567,23 @@ input:checked + label {
   width: 100%;
   min-width: 1280px;
   height: 710px;
+}
+/* 추가 수정 */
+.sliderBarWrap,
+.sliderBarWrap img {
+  width: 74px;
+  height: 5px;
+  display: inline-block;
+}
+.textSliderDiv p {
+  display: inline-block;
+  padding-right: 10px;
+}
+.textSliderfigmaLogo {
+  width: 13px;
+  height: 20px;
+  padding-right: 5px;
+  vertical-align: middle;
 }
 
 @media (min-width: 750px) and (max-width: 1280px){ 
