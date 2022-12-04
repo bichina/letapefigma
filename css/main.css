@@ -609,14 +609,15 @@ input:checked + label {
     margin: 20px 35px;
   }
   .mainSlideWrap > div {
-    float: inherit;
+    float: left;
   }
   .mainSlideWrap {
     width: 750px;
     height: auto;
+    overflow: hidden;
   }
   .mainSliderTitle {
-    width: 100%;
+    width: 300px;
     height: 280px;
     padding: 100px 0 0 40px;
     box-sizing: border-box;
@@ -625,11 +626,11 @@ input:checked + label {
     height: fit-content;
   }
   .textSlider {
-    width: 750px;
+    width: 450px;
   }
   .textSlider .textSliderDiv {
     height: 300px;
-    padding: 80px 60px 0 60px;
+    padding: 50px 10px 0 50px;
   }
   .mainvideoBox {
     width: 750px;
