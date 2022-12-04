@@ -84,6 +84,22 @@ $(".autoplay").slick({
   margin: "10px",
 });
 
+$(".classCourseReview").slick({
+  variableWidth: true, //컨텐츠 너비가 달라짐
+  slide: "div", //슬라이드 되어야 할 태그 ex) div, li
+  infinite: true, //무한 반복 옵션
+  slidesToShow: 1, // 한 화면에 보여질 컨텐츠 개수
+  slidesToScroll: 1, //스크롤 한번에 움직일 컨텐츠 개수
+  arrows: false, // 옆으로 이동하는 화살표 표시 여부
+  dots: false, // 스크롤바 아래 점으로 페이지네이션 여부
+  autoplay: false, // 자동 스크롤 사용 여부
+  vertical: false, // 세로 방향 슬라이드 옵션
+  dotsClass: "slick-dots", //아래 나오는 페이지네이션(점) css class 지정
+  draggable: true, //드래그 가능 여부
+  centerMode:false,
+  autoplay: false,
+});
+
 $(function () {
   $("#tab1").click(function () {
     $("#content3").show().siblings("#content4").hide();
@@ -97,7 +113,7 @@ $(function () {
 
 
 
-
+/* 강의소개-이전다음 버튼 눌러서 보기 */
 let curPos = 0; // 현재 보고 있는 이미지의 인덱스 번호!
 let position = 0; // 현재 .images 의 위치값!
 const IMAGE_WIDTH = 640; // 한번 움직일 때 이동해야 할 거리!

@@ -455,8 +455,11 @@
 .curriculumCourseTitle {
     padding: 13px;
     border-bottom: 1px solid #fff;
-    margin-bottom: 82px;
+    margin-bottom: 20px;
     width: 397px;
+}
+.classCurriculumNotice {
+    padding-bottom: 60px;
 }
 
 

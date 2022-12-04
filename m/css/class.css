@@ -374,8 +374,12 @@
 
 /* 디자인 변경으로 인해 서브페이지 다시 작업 2022.11 */
 .classheaderWrap {
+    position: sticky;
+    top: 84px;
+    z-index: 998;
     margin-top: 45px;
     text-align: center;
+    background-color: #000;
 }
 .classheaderMenu {
     display: inline-block;
@@ -480,7 +484,7 @@
 }
 .classCurriculumTitle {
     display: flex;
-    padding: 80px 0 20px 20px;
+    padding: 80px 0 7px 20px;
 }
 .bookIcon {
     width: 32px;
@@ -489,6 +493,11 @@
 }
 .classCurriculumTitle p {
     line-height: 32px;
+}
+.classCurriculumNotice {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 13px 13px 22px;
 }
 
 
@@ -549,15 +558,14 @@ button:disabled{ /* disabled 된 버튼 */
 }
 
 .classCourseReview {
-    width: fit-content;
     margin: auto;
-    padding: 0 20px 100px 20px;
+    padding: 0 0 100px 20px;
 }
 .classCourseReview .reviewBox {
-    width: 100%;
+    width: 310px;
     height: 470px;
     padding: 25px;
-    margin-bottom: 30px;
+    margin: 10px;
     box-sizing: border-box;
     background: #FEF5C9;
 }
