@@ -31,6 +31,10 @@
     <link rel="stylesheet" type="text/css" href="./../plugins/slick-theme.css"/>
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/main.css">
+    <style>
+        .popup {border:1px solid #ccc;background:#fff;width:fit-content;position:fixed;top:100px;display:none}
+        .popup .close {float:right; color: black;}
+    </style>
 </head>
 <body>
     <header>
@@ -252,6 +256,7 @@
                                     <p class="subtextRegular">
                                         규모가 있는 프로젝트를 혼자 진행하면서 막막했는데 레탑피그마 강의를 들으며 선생님과 함께 프로젝트를 진행할 수 있어 좋았습니다. 좀 더 체계적...
                                     </p>
+                                    <a href = "javascript:openModal('modal1');" class="popupOpen" style="color: red;">자세히보기</a>
                                 </div>                                
                             </div>
                             <div class="item2">
@@ -264,6 +269,7 @@
                                     <p class="subtextRegular">
                                         피그마 사용 꿀팁, 실무협업 시 신경써야 할 점 등 많은 것을 배울 수 있는 좋은 강의였습니다. 또한 그날 강의 내용에 대한 작업물에 대한 리뷰를...
                                     </p>
+                                    <a href = "javascript:openModal('modal2');" class="popupOpen" style="color: red;">자세히보기</a>
                                 </div>
                             </div>
                             <div class="item2">
@@ -311,6 +317,33 @@
                 <a href="./sub/review.html" class="mainReviewBtn">
                     더 많은 후기 보기
                 </a>
+
+                <div class="popup modal1">
+                    <div class="reviewBox">
+                        <div class="reviewTitleWrap line_basic">
+                            <p class="subtextBold">베이직 코스 수강</p>
+                            <p class="body16Bold">김*나</p>
+                        </div>
+                        <img src="./../images/review/01_kim_bitna.png" alt="수강생 사진">
+                        <p class="subtextRegular">
+                            규모가 있는 프로젝트를 혼자 진행하면서 막막했는데 레탑피그마 강의를 들으며 선생님과 함께 프로젝트를 진행할 수 있어 좋았습니다. 좀 더 체계적...
+                        </p>
+                        <a href="javascript:closeModal('modal1');" class="close">X</a>
+                    </div>                
+                </div>
+                <div class="popup modal2">
+                    <div class="reviewBox">
+                        <div class="reviewTitleWrap line_basic">
+                            <p class="subtextBold">베이직 코스 수강</p>
+                            <p class="body16Bold">박*영</p>
+                        </div>
+                        <img src="./../images/review/02_park_jiyong.png" alt="수강생 사진">
+                        <p class="subtextRegular">
+                            피그마 사용 꿀팁, 실무협업 시 신경써야 할 점 등 많은 것을 배울 수 있는 좋은 강의였습니다. 또한 그날 강의 내용에 대한 작업물에 대한 리뷰를...
+                        </p>
+                        <a href="javascript:closeModal('modal2');" class="close">X</a>
+                    </div>           
+                </div>
             </div> 
         </div>
 
@@ -392,7 +425,14 @@
     <script src="./../js/jquery-3.6.1.min.js"></script>
     <script src="./../plugins/slick.min.js"></script>
     <script src="./js/main.js"></script>
-    
+    <script>
+        function popup(){
+            var url = "popup.html";
+            var name = "popup test";
+            var option = "width = 500, height = 500, top = 100, left = 200, location = no"
+            window.open(url, name, option);
+        }
+    </script>
 </body>
 
 </html>

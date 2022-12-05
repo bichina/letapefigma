@@ -96,7 +96,7 @@ $(".classCourseReview").slick({
   vertical: false, // 세로 방향 슬라이드 옵션
   dotsClass: "slick-dots", //아래 나오는 페이지네이션(점) css class 지정
   draggable: true, //드래그 가능 여부
-  centerMode:false,
+  centerMode: false,
   autoplay: false,
 });
 
@@ -110,8 +110,6 @@ $(function () {
     $("#content4").show().siblings("#content3").hide();
   });
 });
-
-
 
 /* 강의소개-이전다음 버튼 눌러서 보기 */
 let curPos = 0; // 현재 보고 있는 이미지의 인덱스 번호!
@@ -164,3 +162,17 @@ function init() {
 }
 
 init();
+
+//팝업 열기
+function openModal(modalname) {
+  $("." + modalname).fadeIn(300);
+}
+
+//팝업 닫기
+function closeModal(modalname) {
+  $("." + modalname).fadeOut(300);
+}
+// // 팝업 닫기
+// $(".popup .close").click(function () {
+//   $(this).parent().fadeOut(300);
+// });
