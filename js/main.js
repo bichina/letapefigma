@@ -127,3 +127,19 @@ $(function(){
         autoplay: false,
       });
     })
+
+
+    //팝업 열기
+const body = document.querySelector('body');
+let scrollPosition = 0;
+
+function openModal(modalname) {
+  $("." + modalname).fadeIn(300);
+  $(".shadow").show(); // 배경 어둡게
+}
+
+//팝업 닫기
+function closeModal(modalname) {
+  $("." + modalname).fadeOut(300);
+  $('.shadow').hide(); // 배경 어둡게 삭제
+}

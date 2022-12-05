@@ -511,3 +511,47 @@ margin-bottom: 38px;
 }
 
 
+/* 후기 팝업 */
+.popupOpen {
+  float:right;
+  color: #000;
+  text-decoration: underline;
+  margin-top: 35px;
+}
+/* 쉐도우 효과*/
+.shadow{
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.52);
+  width: 100%;
+  height: 100vh;
+  display: none;
+  z-index: 998;
+}
+.popup {
+  width:fit-content;
+  height: fit-content;
+  position:fixed;
+  top:120px;
+  display:none;
+  left: calc(50% - 167px);
+  z-index: 999;
+}
+.popup .reviewBox {
+  width: 335px;
+  height: fit-content;
+  padding: 30px 35px 50px 35px;
+  box-sizing: border-box;
+}
+.popupText {
+  width: 235px;
+  margin: auto;
+  overflow: hidden;
+}
+.popup .close {
+  float:right;
+  color: #000;
+  text-decoration: underline;
+  margin-top: 35px;
+}
